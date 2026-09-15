@@ -73,7 +73,7 @@ the numbers.
 
 | | |
 |---|---|
-| **`r pct(c_all$cross_caste)`** | of letters went to a groom outside the writer's caste: Brahmin families `r pct(c_hc$cross_caste)` (all down), Kayastha `r pct(c_mc$down)` down and `r pct(c_mc$up)` up, Namasudra `r pct(c_lc$up)` (all up) |
+| **`r pct(c_all$cross_caste)`** | of letters went to a groom outside the writer's caste: `r round(c_hc$letters * c_hc$cross_caste)` of `r c_hc$letters` Brahmin letters (`r pct(c_hc$cross_caste)`, all down), `r round(c_mc$letters * c_mc$cross_caste)` of `r c_mc$letters` Kayastha (`r pct(c_mc$cross_caste)`: `r pct(c_mc$down)` down, `r pct(c_mc$up)` up), `r round(c_lc$letters * c_lc$cross_caste)` of `r c_lc$letters` Namasudra (`r pct(c_lc$cross_caste)`, all up); `r round(c_all$letters * c_all$cross_caste)` of `r c_all$letters` in all |
 | **`r pct(b_all$own_caste_observed)` vs 33%** | own-caste share observed vs the caste-blind benchmark (three of nine ads are own-caste); sorting index `r num(b_all$sorting_index, 2)` |
 | **`r pa("HC", "HC")` / `r pa("HC", "MC")` / `r pa("HC", "LC")`** | Brahmin families' letters per Brahmin, Kayastha, Namasudra ad |
 | **`r num(row_hc_lc$elasticity_loglog, 2)` vs `r num(row_hc_hc$elasticity_loglog, 2)`** | income elasticity of Brahmin families' letter share to the Namasudra groom vs to their own groom |

@@ -34,7 +34,7 @@ the numbers.
 
 | | |
 |---|---|
-| **47%** | of letters went to a groom outside the writer's caste: Brahmin families 41% (all down), Kayastha 31% down and 27% up, Namasudra 41% (all up) |
+| **47%** | of letters went to a groom outside the writer's caste: 197 of 478 Brahmin letters (41%, all down), 216 of 374 Kayastha (58%: 31% down, 27% up), 112 of 271 Namasudra (41%, all up); 525 of 1123 in all |
 | **53% vs 33%** | own-caste share observed vs the caste-blind benchmark (three of nine ads are own-caste); sorting index 0.30 |
 | **19.6% / 8.1% / 5.6%** | Brahmin families' letters per Brahmin, Kayastha, Namasudra ad |
 | **1.43 vs 0.16** | income elasticity of Brahmin families' letter share to the Namasudra groom vs to their own groom |
