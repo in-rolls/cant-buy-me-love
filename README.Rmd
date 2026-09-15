@@ -142,7 +142,7 @@ takes to pull its first letter across caste lines), and the gap between them is 
 
 ## Relation to Banerjee, Duflo, Ghatak and Lafortune (2013)
 
-The sibling repository [`for-better-or-caste`](https://github.com/soodoku/for-better-or-caste) reproduces
+The sibling repository [`for-better-or-caste`](https://github.com/in-rolls/for-better-or-caste) reproduces
 *Marry for What?*, which studies letters to real advertisers in the same newspaper in 2002–03. The two
 papers measure adjacent stages of the same search and both put a price on caste.
 

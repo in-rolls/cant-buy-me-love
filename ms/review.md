@@ -234,7 +234,7 @@ those gaps depends on an assumption about behaviour outside the observed range.
 3. **Vary income continuously** or at five or more levels so the compensation figure is an interpolation.
 4. **Compare with Banerjee, Duflo, Ghatak and Lafortune (2013)**, who study the same newspaper's letters five
    years earlier with real advertisers; see the sibling repository
-   [`for-better-or-caste`](https://github.com/soodoku/for-better-or-caste). Their shortlisting model and this
+   [`for-better-or-caste`](https://github.com/in-rolls/for-better-or-caste). Their shortlisting model and this
    share model both produce an "income premium for crossing caste"; whether they agree is an open question.
 
 ## Limits of this audit
