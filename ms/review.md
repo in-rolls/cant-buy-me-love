@@ -25,6 +25,23 @@ carry the precision the text gives them, and one exclusion the text does not des
   contains no other-caste code. The dropped letters go disproportionately to lower-caste, high-income
   grooms, and including them roughly halves the Table 6 figures.
 
+## A better reading of the same data
+
+The paper frames the letters as higher-caste women discriminating against lower-caste men, and asks what
+income buys the loss of status. The letters support a plainer description. Every caste writes mostly to its
+own: per ad, an own-caste groom draws 1.4 to 5 times the letters of any other groom, and Brahmin and
+Namasudra families sort equally hard. Nobody writes up: Kayastha families at Rs 35,000 prefer the Namasudra
+groom to the Brahmin, and Namasudra families send the Brahmin groom 3.8% of letters per ad. Income moves
+letters only downward, and pushes lower-caste letters away from rich higher-caste grooms. The preference is
+horizontal, for one's own caste, not vertical, for rank, which is also what Banerjee et al. (2013) conclude
+from the other side of this market.
+
+A letter mixes what a family wants with what it expects to get, and no cell of this design separates the
+two, in either direction. The rising Brahmin-to-Namasudra curve could be taste responding to money or a guess
+about which Namasudra family would accept a Brahmin bride; the falling Namasudra-to-Brahmin curve could be
+identity or discouragement. The price in Table 6 therefore prices a ranking of advertisements, not a loss of
+status, and does so by extrapolating past every income the design tried.
+
 ## Claim-to-estimand table
 
 | # | Claim (paper location) | Unit / population | Estimand as implemented | Comparison | Uncertainty reported |
