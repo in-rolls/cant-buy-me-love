@@ -66,6 +66,9 @@ writes up, and money moves letters across caste lines only downward, at a price 
 | 1,123 letters are unique responses; 47 non-unique letters from 22 responders were dropped (§4, fn 12). | The file drops 243 letters under a flag named `repeat`. They cluster in the second edition and go disproportionately to lower-caste, high-income grooms. Keeping them roughly halves Table 6 ([table](output/audit_table6_with_repeat_letters.md)). |
 | Better-placed responders demand more compensation (§4.4, results "available on request"). | Rebuilt per the stated recipe: the first principal component carries 16% of the variance and quartile-level figures range from −35,000 to +357,000 rupees. At a median split the direction holds for Brahmin families and reverses for Kayastha families. |
 
+[The paper in its own words](ms/interpretation.md) works through twelve of its sentences, quoted, against
+the numbers.
+
 ## At a glance
 
 | | |

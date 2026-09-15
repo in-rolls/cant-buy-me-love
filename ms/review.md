@@ -40,7 +40,8 @@ A letter mixes what a family wants with what it expects to get, and no cell of t
 two, in either direction. The rising Brahmin-to-Namasudra curve could be taste responding to money or a guess
 about which Namasudra family would accept a Brahmin bride; the falling Namasudra-to-Brahmin curve could be
 identity or discouragement. The price in Table 6 therefore prices a ranking of advertisements, not a loss of
-status, and does so by extrapolating past every income the design tried.
+status, and does so by extrapolating past every income the design tried. [The paper in its own
+words](interpretation.md) sets twelve of its sentences beside the numbers.
 
 ## Claim-to-estimand table
 

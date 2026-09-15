@@ -20,6 +20,7 @@ audit:
 report:
 	$(R) src/figures.R
 	$(R) -e 'knitr::knit("README.Rmd", output = "README.md", quiet = TRUE)'
+	cd ms && $(R) -e 'knitr::knit("interpretation.Rmd", output = "interpretation.md", quiet = TRUE)'
 
 test:
 	$(R) tests/run_tests.R
