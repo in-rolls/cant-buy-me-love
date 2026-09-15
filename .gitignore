@@ -1,0 +1,7 @@
+.R/
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+output/*.rds
+data/derived/*.rds

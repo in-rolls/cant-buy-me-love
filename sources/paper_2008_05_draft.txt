@@ -1,0 +1,2303 @@
+                         Can't Buy Me Love:
+A Field Experiment Exploring the Tradeoff Between Income and Caste
+                 in the Indian Matrimonial Market
+
+                                       Subhasish Dugar
+                                      University of Calgary
+
+                                     Haimanti Bhattacharya
+                                      University of Utah
+
+                                        David Reiley
+                         University of Arizona and Yahoo! Research♣
+
+                                  Preliminary Draft: May 2008
+
+Abstract: This study attempts to measure discriminatory preferences using a field
+experiment in an established matrimonial market in India. Indian marriages exhibit
+strong marital segregation along caste lines, and grooms typically advertise their income
+in matrimonial advertisements. This combination yields an ideal opportunity to measure
+discriminatory preferences in terms of foregone financial opportunities. We place
+matrimonial ads in a leading Bengali language newspaper on behalf of fictitious potential
+grooms. We systematically control caste and income characteristics of these grooms in
+order to measure substitution between these two attributes on the part of respondents.
+Responses from potential brides confirm a strong “own caste” preference, as brides
+respond more often to their own caste than to other castes. However, inter-caste
+responses, which constitute a significant proportion of the total responses, give us a
+measure of these discriminatory preferences in terms of groom’s income. In particular,
+we find that the group of highest-caste brides sends an average of 1.6 additional
+responses for every 1000-rupee increase in the monthly income of a lower-caste groom.
+Discriminatory preferences are so strong that even a quadrupling of income is not enough
+to make up for a one-level caste difference between grooms. Extrapolating out of sample
+from our data, we estimate that an eightfold difference in income might be required to
+make up for the difference in response rates by potential brides. These results indicate
+that affirmative action policies in India, which seek to enhance the income of the lower-
+caste population, are not likely to produce any significant change in inter-caste marriage.
+
+
+Keywords: Marriage Market, Discrimination, Field Experiment.
+
+JEL Classification: J12, J15, C93.
+
+
+♣
+  Dugar: Department of Economics, University of Calgary, 2500 University Drive, N.W., SS 454, Calgary,
+T2N 1N4, Canada (email: sdugar@ucalgary.ca); Bhattacharya: Department of Economics, University of
+Utah, 1645 E. Campus Center Dr. Rm. 308 Salt Lake City, UT, 84112 (email: hb2267@columbia.edu);
+Reiley: Department of Economics, University of Arizona, 401CC, McClelland Hall, Tucson, AZ, 85721
+(reiley@eller.arizona.edu). The usual disclaimer applies.
+1        Introduction
+
+         Strong discriminatory preference pervades many spheres of life. Recent research
+
+indicates that it significantly influences choice of a marriage partner (Fisman et al., 2008,
+
+2006; Levin et al., 2007; Wang and Kao, 2007; Hitsch et al., 2006). For example, Fisman
+
+et al. (2008) study mate selection behavior in a Speed Dating experiment, involving
+
+students from Columbia University, and observe that females of all races strongly
+
+discriminate on the basis of race unlike their male counterparts. They detect strong racial
+
+preferences even in a relatively progressive population, and thus conclude that
+
+discriminatory preferences are most likely to play a crucial role in yielding significantly
+
+low inter-racial marriages in the U.S. Using data from the U.S. Census for 1880-2000,
+
+Fryer (2007) documents that interracial marriage rates for whites, blacks and Asians have
+
+trended up in last few decades, even though the absolute rates are still minuscule. Hitsch
+
+et al. (2006) find evidence of strong endogamy (marrying within a group) using online
+
+dating data. Kurzban and Weeden (2005) illustrate the presence of same race preferences.
+
+A number of surveys (Mills et al., 1995; Mok, 1999) also reveal the same negative
+
+attitude toward inter-racial relationships among men and women.
+
+         While these studies document overwhelming absence of inter-group preferences
+
+in marriage markets, a few studies (e.g., Fisman et al., 2008; Fryer, 2007; Hitsch et al.,
+
+2006) scrutinize important role of determinants of such preferences1. These studies
+
+uncover a set of exogenous covariates such as age, residential location, education, veteran
+
+status, physical attributes, and demonstrate their specific role in explaining the choice of
+
+1
+ There exists a large literature in psychology, sociology, and anthropology that explores impacts of various
+mate attributes on marital preferences. See Buss (2003) for a comprehensive survey of these findings.
+Additionally, a strand of literature deals with structural estimation of mate preferences using data on final
+matches (see Choo and Siow, 2006; Bisin et al., 2004; Wong, 2003). In contrast, this study uses data on
+mate selection decisions than final matches.
+
+
+                                                     2
+an inter-group partner. For instance, Fryer (2007) finds that higher level of education had
+
+become an important determinant of interracial marriage by the end of the twentieth
+
+century. Barring these studies, there is not much research that attempts to understand
+
+empirically what factors may reinforce or weaken such discriminatory preferences for
+
+potential mate selection. Identifying the distinct role of these determinants would deepen
+
+our understanding of such preference in this enormously vital territory of human
+
+behavior.
+
+        Against this backdrop, this study explores how economic incentives influence
+
+discriminatory mate selection preference in the context of a well-functioning matching
+
+market. Specifically, we investigate if relatively higher income of a discriminated agent
+
+(e.g., potential inter-group male partner) can plausibly overcome biased preference of a
+
+discriminator (e.g., females) in the context of a marriage market?                           Or is this
+
+discriminatory preference large enough to offset substantial income brought in by a
+
+prospective inter-group individual? Does there exist some level of substitutability
+
+between these two components (i.e., income and biased preference)? What are the
+
+magnitudes, if any, of these potential trade-offs? Beyond these questions, our
+
+understanding of the exchange process of characteristics on both sides of a marriage
+
+market is also quite limited. How do agents in such a market attempt to trade attributes to
+
+strike a match? Our study also sheds light on this particular process by exploiting the
+
+features of the market in which we conduct our study. In contrast, studies by Fishman et
+
+al. (2008, 2006) and Hitsch et al. (2006) do not concentrate on trade-off between an
+
+important mate attribute (i.e., income) and such preference2.
+
+
+2
+ Becker (1973, p. 12) shows that the incentive to marry positively correlates with income potential of each
+agent in a marriage market. Psychologists have long studied the determinants of mate selection using
+
+
+                                                    3
+        The principal research question of this study can be construed to comprehend a
+
+basic principle in economics: the interactive relationship between economic incentives
+
+and agents’ preferences in a specific market context. The relationship can be understood
+
+by appealing to Becker (1957). The basic idea is that individuals can have tastes for
+
+discrimination against members of certain demographic groups in terms of mate selection
+
+process, however this discrimination may not necessarily be infinite. In that case a
+
+discriminatory agent may still choose a mate from the other group as long as the net
+
+income of the out-group member is strictly higher than the net (or gross) income of an in-
+
+group member (holding other marriage market characteristics fixed). Thus discriminatory
+
+agents may trade off disutility (of marrying someone outside his/her own group) for
+
+higher income3.
+
+        However, from the description of some of the results in the introductory
+
+paragraph, it may appear that the tastes of agents are so overwhelmingly biased in favor
+
+of discrimination that, relatively, the economic incentives are of only minor or no
+
+importance. For example, if the discriminatory preferences in agents were large, then it
+
+would lead to complete segregation in a marriage market (Becker; 1957, p.22). Akerlof
+
+(1976, p.609) in contrast maintains that discriminatory incentives may well respond to
+
+economic stimuli. Existing theories in sociology (Kalmijn, 1993; Blau, 1964; Merton,
+
+1941) too extend support to such substitution between biased preferences and
+
+characteristics valuable from the standpoint of a marriage market. Specifically, these
+
+survey method, and one general finding is that women place greater emphasis on earning potential of men
+when seeking long-term relationships (Regan et al., 2000; Stewart et al., 2000). Hitsch et al. (2006) also
+corroborate this particular finding.
+3
+  Becker (1957) introduces the concept of a discrimination coefficient (d) that measures the extent of
+discrimination against a particular group, and the magnitude of d may provide an estimate of monetary
+compensation (e.g., in form of extra income) needed by a discriminatory individual in order to engage in a
+plausible trading relationship with a member of the discriminated group. See Becker (1957, p.14) for
+similar examples.
+
+
+                                                    4
+theories state that there exists some substitutability between the value of an agent in a
+
+marriage market, determined by that agent’s characteristics, and the cost of marrying an
+
+agent with such characteristics. The theoretical predictions from this strand of models
+
+would envisage in our framework that in equilibrium agents with discriminatory
+
+preferences may marry a minority group member in exchange for superior characteristics
+
+possessed by that minority group member. Given the disagreement linked to differing
+
+views on whether such substitutability may be present or not, it is natural to wonder about
+
+the real effects of income incentives on such preferences. Our study permits a direct test
+
+of this conjecture.
+
+        Data limitations however make it difficult to empirically test these questions4. To
+
+circumvent this difficulty and exploit the advantages of a naturalistic environment, we
+
+conduct a field experiment that builds on the correspondence testing methodology that
+
+has been previously used to understand minority outcomes in the U.S. and the U.K.
+
+(Bertrand and Mullainathan, 2004; Riach and Rich, 1991; Brown and Gay, 1985; Jowell
+
+and Prescott-Clarke, 1970). In particular, the market that we use as a testbed to examine
+
+these questions is a leading Bengali language newspaper in the state of West Bengal,
+
+India that publishes matrimonial advertisements on a regular basis5. Majority of the
+
+leading dailies in India publish several columns of such advertisements on a particular
+
+day, and mostly parents having marriageable sons or daughters place these
+
+4
+  In principle, we could shed light on the research question by using inter-group marriage register data.
+However, with this approach we would not have access to the corresponding income data, and as a result
+we cannot identify the trade-off between income and discriminatory preference. Moreover even if this data
+were available, we need to systematically control the income and other marital attributes of individuals in
+order to obtain a precise idea about this trade-off, which we cannot carry out in a natural setting unless
+appropriate controls are implemented. These requirements rule out the use of marriage data, and necessitate
+a filed experiment.
+5
+   Newspapers have long provided effective channels through which individuals search for marriage
+partners in India and elsewhere (Ahuvia and Adelman, 1992; Lynn and Bolig, 1985; Reddy, 1978; Gist,
+1953).
+
+
+                                                    5
+advertisements. The characteristics most commonly mentioned in these advertisements
+
+are caste, age, height, education, occupation, income, physical appearance, and financial
+
+status of a family6. So this market furnishes us with an opportunity to investigate the
+
+trade-off hypothesis by controlling income and other characteristic of individuals.
+
+         In order to examine the trade-off hypothesis, we require an indicator of
+
+discrimination, and the caste-based Indian society provides an ideal setting where caste of
+
+an individual is a proxy for statistical discrimination and, additionally, a parameter of
+
+social status (Deshpande, 2000; Rao, 1992; Scoville, 1991; Dumont, 1980). The Hindu
+
+society is historically divided primarily into four mutually exclusive, exhaustive,
+
+hereditary, and endogamous castes; moreover recent research concerning Indian marriage
+
+system indicates that same-caste marriage is essentially universal (Deolalikar and Rao,
+
+1998; Driver, 1984; Reddy and Rajanna, 1984)7. Available empirical evidence thus
+
+suggests that there may exist very little or no substitutability between caste status and
+
+income8. Thus, a strong intra-caste marital preference coupled with a well-functioning
+
+matrimonial market offers a rich environment for testing our main research question.
+
+
+6
+  Despite the widespread use of newspapers as a medium of mate selection, there may exist a belief that
+persons who use personal ads are somehow different from the population at large. But there is little
+evidence to support this view, and there are several reasons for rejecting it. See Lynn and Bolig (1985) and
+Austrom and Hanel (1983) for comprehensive evidence on this issue. Moreover, the newspaper that we use
+for our study has been in circulation for more than hundred years, is the most widely circulated newspaper
+in India within that language, and has been carrying these ads for a long time. Also, matrimonial
+advertisements that appear in this newspaper differ significantly in scope and purpose from those of regular
+personal advertisements. For example, since parents insert these ads for their marriageable sons and
+daughters, therefore these ads are more serious in nature than just finding a partner for casual short-term
+relationship. We defer a detailed discussion on this issue until the next section.
+7
+  However there exists a clear incentive for lower caste females to marry upper caste males to gain caste
+status since husband’s caste determines that of the wife and children. On the other hand, upper caste
+females would lose their caste status if they were to marry lower caste males (Rao and Rao, 1980; Avasthi,
+1979).
+8
+   Anderson (2003) formulates a theory that shows that in caste-based societies, an increase in wealth
+dispersion leads to an increase in dowry payments, whereas in non-caste-based societies similar increase in
+wealth dispersion has no real effect on dowry payments. This increase in dowry payments is caused by, in
+conjunction with an increase in wealth levels of heterogeneous groups in the caste-based society,
+
+
+                                                     6
+         Finally to operationalize our experiment, we create nine unique matrimonial
+
+advertisements, each corresponding to a distinct groom type9. These grooms belong to
+
+one of the three blocks of advertisements, where each block contains three fictitious
+
+grooms from a given caste group. To experimentally manipulate the perception of caste,
+
+we consider three different caste groups, high (Brahmins), medium (Kayasthas) and low
+
+(Namasudras), strictly ranked in order of societal status in the state. To methodically vary
+
+the income characteristic of each groom within a block, we consider three different
+
+monthly income levels (i.e., high, medium, and low) that are considered appropriate in
+
+the study region. Thus we construct advertisements for nine distinct grooms who differ
+
+either in monthly income (within a block) or in caste status (across a block), while
+
+controlling the assignment of other characteristics appropriate for this particular matching
+
+market10. We post these advertisements in two different editions of the same newspaper
+
+with sufficient time gap; measure responses from prospective brides’ families for each
+
+groom type, and thus cast light on the research hypothesis.
+
+         Our choice of this specific marketplace is prompted by the following three
+
+factors. First, for our purpose we require a matching market that should meet two
+
+essential criteria – (1) a market where we could systematically control the income and
+
+other characteristics of potential grooms, and (2) participants in that market must already
+
+exhibit a strong intra-group marital sorting preference. The matrimonial market that we
+
+employ in this study meets the above two conditions. (1) is important. Since two potential
+
+willingness of lower caste females to pay higher monetary compensations to potential higher caste grooms
+who can be ranked by their earnings. Rao (1993) provides a “marriage squeeze” argument to explain the
+rising price of husbands in modern India, and supports his argument with survey data.
+9
+  Since in Indian caste-based society a male does not experience a loss of his caste membership even if he
+marries outside his own caste group, therefore posting advertisements on behalf of potential brides would
+not shed light on the research hypothesis that we are primarily interested in. As a result, we decided to post
+advertisements on behalf of potential grooms.
+10
+   We defer the discussion of how we construct these advertisements until the next section.
+
+
+                                                      7
+grooms from two different castes that appear similar (except their caste status) to
+
+researchers may look very different to prospective brides. So any matching market
+
+outcomes along the line of own-caste preference could just as easily be attributed to
+
+differences in other characteristics (and not the caste dimension) that are observable to
+
+prospective brides but unobservable to researchers. However, if researchers could
+
+methodically control such other characteristics of grooms, then any difference in
+
+marriage market outcomes could be attributed with much confidence to the manipulation
+
+of either the caste or the income features of grooms.
+
+       Second, since subjects of our experiment are not aware that they are being
+
+studied, this aspect of our experiment allows us to avoid many of the demand
+
+characteristics and impression management that may arise in other environments, and
+
+possibly affect research outcomes. The market we choose affords us to avoid such
+
+pitfalls. Third, conjunction of an exceptionally strong discriminatory preference for mate
+
+selection and a reputable market for matrimonial advertisements presents us with a
+
+unique opportunity to put our research questions to a rigorous test.
+
+       The rest of the paper is organized as follows. Section 2 lays out the experimental
+
+design; section 3 presents the main results. In the last section, we discuss possible
+
+interpretations of our results, how our results trace back to different marriage market
+
+theories, and finally conclude.
+
+2      Experimental Design
+
+       2.1 Construction of the Advertisements
+
+       The main task of the experimental design is to construct advertisements for the
+
+potential grooms that are to be sent to the newspaper. The objective is to produce a set of
+
+
+
+
+                                             8
+advertisements that must be representative of the ones that actually appear in that
+
+newspaper. To achieve this goal, we collected 2777 actual advertisements from various
+
+randomly selected editions of the same newspaper (over a course of four months), posted
+
+on behalf of potential grooms seeking responses from prospective brides11. This would
+
+help us identify a set of mean groom characteristics such as age, height, education,
+
+physical appearance, job, and income that can approximately inform the construction
+
+process of our set of advertisements. More importantly, compilation of the actual
+
+advertisements would provide us with a realistic estimate of mean monthly income of a
+
+typical potential groom in this market to which we can anchor the income figures that we
+
+will actually use in the fictitious advertisements.
+
+        Tables 1A and 1B report the summary statistics, by each caste group, of the
+
+advertisements compiled from the newspaper. Several observations are in order. First,
+
+there are no major differences in terms of mean height and age across the caste groups.
+
+Second, the aggregate mean monthly income is approximately Rs. 15858 (on average 45
+
+percent of all postings mention an income figure); the mean income positively correlates
+
+with societal rank of a caste, and this correlation is in close agreement with Deshpande
+
+(2001). The mean income for each caste group in addition displays a high degree of
+
+variance, and our experimental design exploits this specific feature of the market. Recall
+
+that the primary goal of the design is to construct advertisements for potential grooms
+
+that must differ notably from each other in terms of monthly income and in addition,
+11
+   On average 1000 advertisements are published on every Sunday in this newspaper. Advertisements (both
+potential grooms and brides) from a specific caste group are generally clubbed together. So it is safe to
+presume that a potential bride or groom’s family (from a given caste group) that is looking for an ideal
+match from any caste group may glance through all the ads published in that section of the newspaper. A
+typical ad runs for three to four very short lines that contain the previously mentioned information. Since
+the newspaper charges on the basis of total number of words put in an ad, people generally try to keep an
+ad very short and precise. Hence it does not take a lot of time for a reader to go through a series of such
+ads.
+
+
+                                                    9
+advertisements with considerably high or low monthly incomes must appear quite
+
+realistic12. The high dispersion in actual income data helps us achieve the last objective
+
+by assuring us that in this market such advertisements appear on a regular basis. Third, a
+
+significant percentage of these advertisements mention age, height, education, nature of
+
+the job, and physical attribute. In case of education, mostly the name of a degree (e.g.,
+
+B.A., B.Sc., B.Tech., M.A. etc.) is mentioned as a proxy for educational achievement,
+
+and approximately half of the times a field of study is associated with the degree. Fourth,
+
+a surprisingly higher percentage of these potential grooms hold a government job, which
+
+is easily understandable since jobs in the public sector offer much desirable employment
+
+security in many developing countries (Frank and Lewis, 2004).
+
+         The collected information supplies essential structural inputs into our
+
+advertisement production process. To initiate this process, at the outset we chose the
+
+following three different caste groups - Brahmins, Kayasthas, and Namasudras for our
+
+fictitious grooms13. Each of our chosen caste groups belongs to only one of the three
+
+main castes, namely, Brahmins, Kshattriyas and Sudras, respectively14. These caste
+
+
+12
+   If actual incomes of prospective grooms n this market did not exhibit some variability, then this would
+have ruled out this market as a potential testing ground for our income-preference trade off hypothesis. In
+that case, grooms with either very low or high income would stand out as outliers, and thus introduce a
+major flaw in the design. However the highly variable income data alleviate such concerns. One may also
+suspect that advertisements that mention grooms’ incomes do so because these grooms have higher than
+average earnings generally found in that state. High frequency of considerably low income figures reported
+in these ads dismisses this view as well (see Figure 1).
+13
+   A person’s last name often carries the identity of the caste he or she belongs to. But in many parts of
+India, a person’s name (first or last) is not a conclusive indicator of the caste identity (unlike West Bengal).
+However, if a person is named in the traditional way, it is often possible to identify his or her caste from the
+last name (Ramu, 1977).
+14
+    The ancient Hindu society is divided into four main endogamous caste groups, namely, Brahmins,
+Kshattriyas, Vaisyas, and Sudras. Since each main caste is further sub-divided into several subcastes and
+there exists a host of surnames for each of these castes and subcastes (Deshpande, 2001; Gangopadhyay,
+1964), we decided to indicate only the main caste of a fictitious groom in the advertisement and not the last
+name. 69 percent of all the actual advertisements that we collected indicate only the caste of a groom, and
+not the last name. Even though the Hindu marriage system prevents marriages across main castes, but a
+marriage between two individuals coming from two different subcastes (from the same main caste) is
+
+
+                                                      10
+groups are similar with respect to their cultural and social behavior, except the societal
+
+rank in the state of West Bengal (Harlan and Courtright, 1995). So the reported
+
+segregation in marriage markets in West Bengal can mostly be attributed to
+
+discriminatory preferences, and not to any cultural differences across these caste groups.
+
+Our choice of these specific caste groups has been prompted by three main reasons. First,
+
+each of the included caste group in our design has an unambiguous social ranking in the
+
+study region. Brahmins are at the top of the caste hierarchy in the state followed by
+
+Kayasthas, and Namasudras15. Second, marriages among these caste groups have been
+
+claimed to be practically non-existent, thus will allow a rigorous test of our main research
+
+hypothesis (Corwin, 1977; Gangopadhyay, 1964). Third, each caste group is numerously
+
+present in the state, and therefore any tendency to marry across caste lines may not be
+
+driven by pure supply side effects (The Census of India, 2001)16.
+
+         We manufacture a total of three blocks of advertisements. Each block contains
+
+three grooms from a given caste group. To systematically manipulate the income
+
+characteristic of these three grooms within a block, we consider the following three
+
+
+
+permitted (Davis, 1941). Therefore, our design does not exclude any potentially interested subcaste group
+(within a caste) from responding to our advertisement for a particular groom, and at the same time this
+choice avoids the complexity that may arise from web of subcastes and the consequent surnames.
+15
+   Namasudras are one of the major scheduled castes (SCs) in West Bengal, according to the 2001 Census
+of India. SCs, which sit at the bottom of the caste-hierarchy, are generally communities that were explicitly
+recognized by the Constitution of India in 1950 as requiring special support to overcome centuries of
+discrimination by mainstream Hindu society (Holla, 2007). The total population of West Bengal at 2001
+Census has been 80,176,197. Of these 18,452,555 persons are SCs, constituting 23 per cent of the total
+population of the state. There are 59 notified SCs, and all have been enumerated in 2001 Census. The
+Rajbanshi and Namasudra having more than 3.2 millions population each; together these two groups
+constitute 35.8 per cent of the total SC population in the state. For an extensive discussion on Namasudras
+in the West Bengal, see Bandopadhyay (1997).
+16
+    The relative supply of each included caste group in West Bengal may potentially affect inter-caste
+marriage rates. For example, the Namasudras may be more likely to marry outside their own caste because
+they make up only a small fraction of the total population of West Bengal. In other words, many of their
+marriage prospects are non-Namasudras. However, we contend that their sheer presence, in absolute
+number (3,212,393 according to The Census of India, 2001), is large enough to discard any such supply
+side argument. We discuss more on this issue in the next section.
+
+
+                                                    11
+monthly income levels – high (Rs.35,000), medium (Rs.15,000) and low (Rs.7,000). We
+
+assign these three income figures to the three potential grooms within a block, one for
+
+each. This assignment process therefore results in a total of nine grooms, divided equally
+
+into three caste groups (or blocks), and each groom within a group differs from the other
+
+two in terms of monthly income. The main advantage of our chosen monthly income
+
+levels is that they are dissimilar enough to produce a large effect (in terms of response
+
+received from the other side of the market) to be at least in principle observable in
+
+response data.
+
+         To arrive at these income figures, we utilize the distribution of monthly income of
+
+actual grooms advertised in various editions of the newspaper, as shown in Figure 1.
+
+These income figures were reported either in monthly form or in annual form. We
+
+computed the monthly figures from the annual figures whenever necessary. We employ
+
+Rs. 15,000 as the medium monthly income level (an approximation of the aggregate mean
+
+monthly income of Rs. 15,858, see Table 1) in our design around which we manipulate
+
+the low and high-income levels. A close inspection of Figure 1 reveals that increasingly
+
+fewer incomes occur toward the upper tail of the distribution, and there are very few
+
+observations in excess of Rs. 35,000 (this pattern is valid across each caste group in the
+
+monthly income data, which we do not report here). As a result, we choose Rs. 35,000 as
+
+the high monthly income level in our design. In the lower tail of the income distribution,
+
+most observations fall in the range of Rs. 4,000 – Rs. 10,000. We choose the mid-point of
+
+this range, that is, Rs. 7,000 as the low monthly income level17.
+
+
+17
+   We planned to experiment with a range of income figures (for each level) before posting our ads with
+these ones. Since we were not sure which income figures might elicit inter-caste responses, if any, this was
+our strategy. However since the two batches of advertisements elicited considerable number of inter-caste
+responses, we decided to stick with these figures only and did not pursue with other figures.
+
+
+                                                    12
+        As a check of appropriateness of our income figures, we conducted a survey in
+
+the three districts (i.e., Kolkata, Howrah, and Birbhum) in West Bengal. The first two
+
+districts represent a combination of urban and semi-urban areas whereas the last district is
+
+mostly composed of semi-urban and rural areas. According to the income indices
+
+computed by the Executive Summary, West Bengal Human Development Record
+
+(WBHDR, 2004), Kolkata is economically the most affluent (the index value is 0.73) and
+
+Birbhum is the most impoverished (0.27), and Howrah (0.53) lies in between. These
+
+districts were chosen to reflect perceptions of individuals, belonging to various income
+
+categories, about “what constitutes a low, medium, or high income level for a
+
+marriageable male in the state of West Bengal”. Each responder was shown a list of
+
+income intervals, and was asked to mark one of them that he/she thinks a
+
+low/medium/high income marriageable male in the state should belong to. There were
+
+three separate questions for the three income levels, and each responder had to choose
+
+only one income interval for each income level. The shown income intervals ranged
+
+between Rs. 2,000 and Rs. 41,000, and increased in steps of Rs, 3,000, thus there were a
+
+total of ten income intervals to choose from. There were a total of 100 responders
+
+randomly chosen from each district18.
+
+        There are three main observations. First, majority of the responders from Kolkata
+
+and Howrah choose the interval (Rs. 6,000 – Rs. 9,000) when asked to choose an interval
+
+for a low-income level for a potential groom. Most of the responders from Birbhum
+
+choose the interval (Rs. 2,000 – 5,000) when the same question was asked. Second, for
+
+
+18
+  There were equal numbers of randomly chosen male and female responders. The survey had a total of 22
+questions and the main purpose of the survey was to form a rough idea how residents of the state perceive
+various attributes that are relevant for an arranged marriage market. We do not report all the results from
+the survey here.
+
+
+                                                    13
+high-income level, most choices typically concentrate on the following three income
+
+intervals: (Rs. 22,000 – Rs. 25,000), (Rs. 26,000 – Rs. 29,000), and (Rs. 30,000 – Rs.
+
+33,000), respectively for Birbhum, Howrah, and Kolkata. Third, for medium-income
+
+level, choices mostly concentrate on the following two income intervals: (Rs. 10,000 –
+
+Rs. 13,000) and (Rs. 14,000 – Rs. 17,000), most of the responders from Birbhum chose
+
+the first interval while most of the responders from the other two districts chose the last
+
+interval. In a nutshell, the survey results correspond closely with the experimental income
+
+figures and thus provide much required confidence in our chosen income parameters.
+
+         In the later stage of the experimental design, we assign the following
+
+characteristics to each of the nine potential grooms: age, height, and job. We restrict
+
+ourselves to three different age and height figures (30, 31 and 32 for age & 64, 65, and 66
+
+inches for height), and randomly assign one of them (for each characteristic) to each of
+
+the nine grooms. In order to prevent any subjective characteristic to directly influence
+
+responses received against our advertisements, we decided not to use any physical
+
+characteristic19. In light of strong preference among the population for a governmental
+
+job, we further restrict ourselves to only one occupational category, that is, a government
+
+job, and assign this job characteristic to each of the nine grooms. Since there exists a
+
+positive correlation between educational achievement and earnings of potential grooms in
+
+our collected data, we assign a Masters degree to the medium and high-income grooms,
+
+and a Bachelors degree to a low-income groom (without indicating the filed of study).
+
+The newspaper office randomly assigns a PO box number for each posting when the
+
+19
+   Fishman et al. (2006) and Hitsch et al. (2006) find strong evidence that physical attractiveness of
+individuals play a crucial role in influencing the mate selection process. Since on average 42 percent of the
+advertisements that we collected do not mention looks of prospective grooms, therefore we believe that our
+advertisements (which also do not mention looks) do not constitute a major departure from a typical ad
+found in this market.
+
+
+                                                    14
+advertisements are submitted for publication. It is implied that each groom in our design
+
+represents a Bengali male with the above characteristics.
+
+         2.2 Why West Bengal?
+
+         West Bengal is one of the few states in India that has an impressive socio-political
+
+history. The state boasts of considerable achievements in the spheres of land reform,
+
+education (69.22 percent literacy rate, The Census of India, 2001), and has witnessed
+
+strong social and working class movements with strong anti-caste emphasis. According to
+
+Deshpande (2001), West Bengal is in the middle of the spectrum in terms of absolute
+
+economic deprivation of SCs and Scheduled Tribes (STs); however in terms of inter-caste
+
+economic disparity (SC/ST versus ‘others’), it is one of the states with the least
+
+disparity20. In case of a state with very high inter-caste economic disparity, an income of
+
+Rs.35000 (which represents high income in our design) for a low-caste groom would be
+
+viewed as an outlier or unrealistic, which is not the case in West Bengal. Thus the low
+
+inter-caste economic inequality adds an important touch of realism to our high-income,
+
+low-caste advertisements and at the same time makes the tradeoff technically more
+
+feasible.
+
+         One might argue that given this substantial socio-economic profiles and political
+
+history, West Bengal appears to fulfill several of the conditions that would be needed to
+
+support our income-caste tradeoff hypothesis and thus may bias our results, which we
+
+seek to contest. The predominant perception in the related literature is that the caste
+
+hierarchy is deeply entrenched in Indian society, i.e., there is virtually no substitutability
+
+between caste status and any other matrimonial attributes. If this reflects a true picture of
+
+
+20
+   The available data divide the population into SCs, STs, and ‘Others’. The latter (everyone else) is a very
+large and heterogeneous category.
+
+
+                                                    15
+reality, then there is little hope to obtain any support for our research hypothesis. The
+
+objective of this study is to test if caste-based discrimination can at all be weakened by
+
+economic incentives in the most favorable set up. Failure to find evidence in support of
+
+our research hypothesis in such a favorable state would only imply that there remains
+
+little or no hope about the ability of economic progress to overcome the caste
+
+considerations, at least, in Indian marriage markets.
+
+       2.3   Responses to Advertisements
+
+       We measure whether a given advertisement elicits a response from an interested
+
+bride’s family. Families send their responses, mostly in form of detailed letters, to a
+
+unique PO box number that was assigned to each advertisement by the newspaper at the
+
+time of submission. These PO box numbers help the newspaper identify the responses for
+
+each posting. After two weeks from the date of publication of each of the two batches of
+
+advertisements, the newspaper delivered the packets of responses to our physical address
+
+on a regular basis until the flow of responses finally tapered off; a label on each packet
+
+clearly indicated the advertisement for which those many responses were received. Thus
+
+there remained no scope for responders to contact us directly, and this delivery method
+
+also kept our identity perfectly confidential.
+
+       Most of the responses were in the form of long letters, mainly from the guardians
+
+of the potential brides. Others were written on postcards and inland letters, available from
+
+a typical Indian post office in this part of the country. The average cost of sending a
+
+response may range from Rs. 3.00 to Rs. 7.50 (equivalent to $0.07 and $0.19
+
+respectively), calculated from our data. Very few respondents included a resume and a
+
+picture of the potential bride, in addition to the letter. A typical response includes the
+
+
+
+
+                                             16
+following pieces of information: caste, age, height, number of sisters/ brothers, family
+
+size, occupations of parents (government employees, businessman, etc.), if any of the
+
+parents is not alive, potential bride’s education level, occupation, skin complexion, looks,
+
+and a short of description of family wealth (whether the family owns a house, a plot of
+
+land, an apartment etc.). Some responses also mentioned some other features such as
+
+whether any member of the family resides abroad, siblings’ occupations, and occupations
+
+of brother-in-laws and sister-in-laws.
+
+       One may suspect that description of characteristics that advertisers claim to
+
+possess may suffer from widespread misreporting behavior, and as a result one would
+
+have little faith in our interpretation of this data. However the manner in which this
+
+particular market functions may discard such doubts. After the first round of contact, if
+
+both parties (i.e., families) still remain interested in each other then they generally agree
+
+to meet at one’s house to further discuss other details, and introduce a potential bride to a
+
+potential groom (Reddy, 1978). These further meetings add a certain strategic element to
+
+this arranged marriage ‘game’, which is important for our purpose. Specifically, any false
+
+reporting regarding agents’ characteristics can easily be verified during these later
+
+meetings, and thus any misreporting should not be part of a potential match. Also
+
+prospective responders to our advertisements were not aware that they are a part of an
+
+experiment, so we do not have strong reasons to expect considerable incidence of over or
+
+under reporting of true characteristics that may render our data useless.
+
+       We now discuss the potential weaknesses of our experiment. Akin to Fishman et
+
+al. (2006, 2008), Hitsch et al. (2006), we do not have data on final matches, instead we
+
+simply collect responses from brides’ families that only express their willingness to
+
+
+
+
+                                             17
+initiate a negotiation process, which may or may not result in a final match. In contrast,
+
+what one may really care for is a final match. Despite this particular limitation of our
+
+study, one would normally expect to have a positive association between initial responses
+
+and final matches, after allowing moderate level of frictions in the mate selection process.
+
+In that sense our parameter for capturing the extent of inter-caste marriages in this
+
+context may be a crude one, but still a useful apparatus.
+
+       Another potential weakness is that newspaper ads are only one of the many
+
+potential channels via which marriage alliances are sought. Social networks, on-line
+
+dating websites are other established examples of matrimonial markets through which
+
+individuals search for potential mates, the ones that are not studied here. We do not
+
+possess any data on the proportion of total marriages in India that are arranged via each
+
+of these channels, however, as indicated earlier newspapers ads have been playing a
+
+critical role in bringing together both sides of the market for a long time in India, and we
+
+simply rely on that trusted channel for executing our experiment.
+
+3      Results
+
+       The nine advertisements, published in two different editions of the same
+
+newspaper, received a total of 1123 unique responses. The responses were received from
+
+various parts of West Bengal and from other states as well that include rural, semi-urban
+
+and urban areas. The analysis presented below pools the responses received against each
+
+of the two batches of advertisements. As mentioned earlier, apart from the responder
+
+caste each response lists several attributes of a prospective bride and her family. While
+
+some of these attributes (e.g., age, height, number of siblings etc.) are objective in nature
+
+and therefore easy to condense into a single statistic, others (looks, skin complexion,
+
+
+
+
+                                             18
+occupations etc.) are either too subjective to evaluate on a cardinal scale or vary so much
+
+that it is hard to capture them in a single dimension. To deal with the subjectivity of some
+
+of the reported characteristics, we define (being informed by the data) various categories
+
+for each of them and assign each response to one of these categories.
+
+       Since it is difficult to rank and report numerous reported occupations of parents of
+
+potential brides, we broadly classify them as ‘Government job’, ‘Private job’, ‘Business’,
+
+‘Retired’, and ‘Housewife’, and allocate each response to one of these categories. We
+
+create a binary variable of the form ‘employed’ and ‘not employed’ to capture a potential
+
+bride’s employment status and assign each response to either of the two. We define three
+
+(ordinal) categories of ‘looks’ - ‘very good looks’, ‘good looks’, and ‘average looks’, and
+
+assign each response to one of these categories, based on the self-reported description of
+
+looks of girls. Similarly, we create three distinct categories to capture various skin
+
+complexion types - ‘very fair’, ‘medium fair’ and ‘fair’, and assign each reply to one of
+
+these. We categorize the educational qualification of a girl into ‘below Bachelors’,
+
+‘Bachelors or equivalent’, ‘Masters or equivalent’ and ‘Ph.D.’. Family wealth situation is
+
+often reflected in the data by ownership of a house, an apartment, or in some cases a
+
+piece of land. We create a binary variable, ‘own a house or an apartment’ and ‘do not
+
+own a house or an apartment’ to reflect a family’s financial health, and assign each
+
+response to either of the two categories. Tables 4 – 8 report the incidence of each of
+
+these characteristics in the aggregate data, and in each responder caste group.
+
+       3.1     The Aggregate Response
+
+       Table 2 presents the total number of responses received by each of the nine
+
+grooms, classified by their distinctive caste and income features. The last row indicates
+
+
+
+
+                                            19
+that the total number of responses (aggregated over the caste groups) rises with increase
+
+in groom monthly income. The LI, MI, and HI grooms receive approximately 27, 30, and
+
+43 percents of total responses respectively21. The number of responses received by LC
+
+grooms increases monotonically in monthly income; while the same monotonicity holds
+
+true for MC grooms, it does not appear to be the same case for HC grooms. Overall there
+
+appears to be a strict preference for higher income grooms among responders.
+
+        The last column in the table indicates that HC grooms receive the highest number
+
+of responses (37 percent), whereas MC and LC grooms equally share the rest of the total
+
+responses (approximately 31.5 percent each). This may be suggestive of the fact that HC
+
+grooms are the most preferred while the other two types are equally preferred. Holding
+
+the monthly income level of grooms fixed at LI, we find that higher the caste of a groom,
+
+the larger is the number of responses received by that groom. Grooms under MI follow
+
+the same pattern, however this trend is completely reversed in case of grooms that belong
+
+to HI level. We conducted similar analyses separately for each batch of responses, and
+
+found the above trends to be present in each data set. The dynamics that (plausibly) give
+
+rise to these trends in the aggregate data can be uncovered by analyzing the responses
+
+coming from responders belonging to different caste groups.
+
+        There could be a potential concern that these response patterns are driven by pure
+
+supply side effects, and thus may misrepresent true preferences (for various groom types)
+
+of responders. That is, the distribution of three caste groups in the total state population
+
+or the income distribution within a specific caste may have shaped these response
+
+patterns rather than the true preferences of responders. For example, the last column in
+
+21
+  We will use HI, MI, and LI for high, medium, and low monthly income level respectively, and HC, MC,
+and LC to indicate high, medium, and low caste respectively throughout this section.
+
+
+
+
+                                                 20
+Table 2 may not necessarily imply an underlying preference for higher caste grooms. If
+
+these three caste groups are present in the state population in that specific order (in terms
+
+of their respective shares), then the last column may simply reflect respective share of
+
+each group on the demand side of the market and not a preference for the castes of the
+
+potential grooms22. In general, in any matching markets determining preferences for mate
+
+selection from observed outcomes is always difficult because a given outcome is often
+
+consistent with a particular preference structure or a supply side account. However, our
+
+analyses in the following subsections contradict such effects. Thus we believe that the
+
+assumption of no supply side effect and the consequent no strategic behavior is justified,
+
+although, some element of such behavior may be present in the data.
+
+        3.2      Responses Classified by The Responder Caste
+
+        Tables 2A, 2B, and 2C present the distribution of responses by responder caste
+
+type. The number in each cell represents the percentage of ith caste responses that were
+
+sent for the jth groom type. We divide the total responses into two categories, intra-caste
+
+and inter-caste responses. While the analysis of intra-caste responses sheds light on the
+
+strength of own-caste preference in the context of this market, the scrutiny of inter-caste
+
+responses focuses on the discriminatory preference- income trade off hypothesis.
+
+        3.2.1    The Intra-Caste Responses
+
+        The last column of each table reveals that each responder caste group sends the
+
+largest proportion of their total responses to the grooms who belong to their own caste.
+
+For instance, the three HC grooms receive approximately 59 percent of all HC responses,
+
+22
+   The Census of India (2001) provides population data at the state level only for the following three
+groups: SCc, STs, and Other Backward Classes (OBCs). All the other castes are clubbed under the general
+category. The HC and MC groups included in our study belong to the general category. Therefore we do
+not have data about the shares of the these two caste groups in the state population, although we have the
+corresponding data for the LC group.
+
+
+                                                   21
+and the corresponding figures for the MC and LC grooms are approximately 42 and 59
+
+percents respectively. This is a clear indication of a strong own-caste preference among
+
+the responders and is consistent with the dominant view in the literature pertaining to the
+
+Indian marriage system. The sheer magnitudes of these percentages also suggest that HC
+
+and LC responders may have stronger own-caste preference than that of MC responders.
+
+In other words, MC responders exhibit relatively higher propensity to respond to grooms
+
+of other castes in our data, which may be attributed to the relative position of this caste
+
+group in the caste hierarchy, as they can respond in both upward and downward
+
+directions unlike responders from the other two caste groups.
+
+       The analysis also reveals that the HI groom in each caste group receives the
+
+highest number of responses that are from their own caste. Moreover there exists a
+
+positive relation between the number of own-caste responses and monthly income of a
+
+groom in that caste group. For example, the HC groom with HI receives 23 percent of all
+
+HC responses. The corresponding figures for {MC, HI} and {LC, HI} groom types are
+
+approximately 22 and 25 percents respectively. These findings accord well with an
+
+important observation made in Anderson (2003) that brides’ families are expected to be
+
+especially sensitive to earnings of own-caste grooms. Since an own-caste alliance does
+
+not imply any gain or loss of caste status for females, income becomes one of the primary
+
+determinants of mate selection. To sum up, the analysis of intra-caste responses indicates
+
+that each responder caste group prefers own-caste grooms to grooms from the other
+
+castes, and among those the groom with the highest income seems to be the most
+
+preferred.
+
+
+
+
+                                            22
+         The argument that potential supply side effects may cause above response
+
+patterns is plainly refuted by our data. To see this consider the following: in West Bengal
+
+LC (in our design) constitutes a relatively small proportion of the total population (only 4
+
+percent of the state population are Namasudras as per The Census of India, 2001). This
+
+means most of their marriage prospects are in the upper caste groups. If the assumed
+
+supply side effect shaped the responses of LC responders, then they are expected to
+
+respond relatively more frequently to MC and HC grooms than to grooms who belong to
+
+their own caste, simply in order to increase the likelihood of finding a potential groom.
+
+Since in the data LC responders send majority (59 percent) of their total responses to
+
+own-caste grooms, this clearly refutes the supply side account. The same line of
+
+reasoning applies to responders from other castes as the case may be.
+
+         One may also argue that a strategic consideration may explain why responders of
+
+a given caste group show an increasing preference for higher income grooms who belong
+
+to their own caste. The alleged effect may operate in the following manner. Since in a
+
+country like India the high-income population constitutes a small proportion of the total
+
+population, and then assuming that the low-income population constitutes a large
+
+proportion of the total population of each caste group in West Bengal, a strategic
+
+behavior would imply that the largest share of intra-caste responses should go to the LI
+
+grooms23. This response behavior would presumably enhance the probability of finding a
+
+
+23
+  Even though we assume that low-income population constitutes a large fraction of the total population of
+each caste group in West Bengal, in light of the scantly available data it does not appear to lie far from the
+reality. According to the UNDP Human Development Report, 2007-08, India’s Gini index was 36.8 in
+2004-05; the richest 20 percent population account for 43 percent of the national income and the poorest 20
+percent receive only 8 percent of the national income. This skewed distribution indicates that 80 percent of
+the country’s population share only 57 percent of the country’s income, which suggests that a small
+proportion of the population belong to the high income group. Since income data by caste groups are not
+available, we refer to these national income figures, which can provide a rough picture of the overall
+income distribution prevailing in the country.
+
+
+                                                     23
+match for a responder. However the trend in the data contradicts this strategic response.
+
+In contrast we observe that the HI groom in each caste group receives the highest number
+
+of responses from their own caste. Thus supply side arguments cannot explain the intra-
+
+caste response patterns found in the data.
+
+       3.3     The Inter-Caste Responses
+
+       In order to shed light on the main hypothesis of this study, we focus on the inter-
+
+caste responses. We distinguish between two possible types of inter-caste responses: one
+
+in which a higher-caste responder replies to a potential lower-caste groom, and the other
+
+in which a lower-caste responder replies to a potential higher-caste groom.           The
+
+distinction is important as incentives differ in each direction. Recall that a lower-caste
+
+female would experience a gain in caste status by marrying a higher-caste male, while a
+
+higher-caste female would experience a loss in caste status by marrying a lower-caste
+
+male. Thus an asymmetric incentive structure prevails for different caste groups so far
+
+inter-caste mobility is concerned.
+
+       While there exists a universal consensus regarding strict own-caste preference in
+
+Indian marriage markets (Anderson, 2003), our data is largely at variance with this
+
+observation. Despite the evidence in favor of strong own-caste preference, we find that a
+
+significant proportion of responders (approximately 41, 58, and 41 percents of HC, MC
+
+and LC responders respectively) reply to grooms outside their own caste. We first
+
+concentrate on the responses that are sent from the upper strata of the caste hierarchy.
+
+Approximately 24 percent of all HC responses go to MC grooms, and 17 percent to LC
+
+grooms; thus HC responders on average display greater willingness to marry a MC
+
+groom than marrying a LC groom. Given the status of each caste in the caste hierarchy,
+
+
+
+
+                                             24
+this is quite intuitive. Furthermore responses from HC group diminish steadily as the
+
+income of a lower-caste groom decreases (see 2nd & 3rd rows of Table 2A). MC
+
+responders in contrast send 31 percent of their total responses to LC grooms. Responses
+
+from MC group also gradually decrease as the income of a LC groom goes down (see 3rd
+
+row of Table 2B). While theoretically there remains no reason for HC and MC
+
+responders to reply to lower-caste advertisements, we find that responders of these caste
+
+groups are actually willing to select a mate from lower-caste groups, moreover higher the
+
+income of a lower-caste groom higher the number of responses from higher-caste
+
+responders. In sum, these observations might indicate that higher-caste responders are
+
+willing to trade off their caste status for higher incomes of potential grooms, i.e., they are
+
+ready to accept a loss in the caste status by expressing their willingness to marry a lower-
+
+caste groom with considerably higher than average income.
+
+       Could supply side effects explain these response patterns in the data? One
+
+potential argument could be the following. Assume that the respective shares of HC and
+
+MC groups in the state population are higher than that of LC group, and therefore
+
+responses from these groups merely reflect their large presence in the market and do not
+
+necessarily mirror their preference for potential lower caste grooms with higher incomes,
+
+as we argue. Granted this, why these responders respond in a fashion that reveals their
+
+greater sensitivity to higher incomes of such grooms? One may still make a case that
+
+since higher income is known to positively correlate with liberal attitudes, then having
+
+realized this higher-caste responders apply in greater numbers to potential lower-caste
+
+grooms with higher income, simply to increase their likelihood of acceptance. However if
+
+this were true then in principle that should also affect the response behavior of lower-
+
+
+
+
+                                             25
+caste responders when they reply to potential higher-caste grooms. A close inspection of
+
+1st row of Table 2B and 1st & 2nd rows of Table 2C reveal that lower-caste responses
+
+actually decrease as income of a potential higher-caste groom rises; hence a
+
+contradiction. Thus, we conclude that higher-caste responses mostly reflect preference for
+
+potential lower-caste grooms with higher earnings.
+
+       Shifting focus to the inter-caste responses from lower-caste groups, we find that
+
+approximately 27 percent of all MC responses and only 11 percent of all LC responses go
+
+to HC grooms, whereas 30 percent of all LC responses are directed towards MC grooms.
+
+Thus LC responders on average display greater willingness to marry a MC groom than
+
+marrying a HC groom. Again, this may be a sheer reflection of the caste hierarchy.
+
+Furthermore there exists an inverse relationship between the number of lower-caste
+
+responses and the income of a higher-caste groom (see 1st row of Table 2B and 1st & 2nd
+
+rows of Table 2C). Thus lower-caste responders also respond to the income incentives
+
+provided by potential higher-caste grooms, but unlike their higher-caste counterparts. In
+
+sum, these findings might that indicate that lower-caste responders are prepared to
+
+tradeoff their preference for higher incomes of potential grooms (evident from the intra-
+
+caste responses) for a gain in the caste status by expressing their willingness to marry a
+
+higher-caste groom with lower income. Thus, inter-caste responses show evidence of
+
+willingness to trade off caste status with groom income that exists on both sides of the
+
+market.
+
+       3.4     Estimates of Caste-Income Trade offs
+
+       Having discovered remarkable evidence of trade-offs between caste and income
+
+attributes in our data, we answer a question that is natural to ask at this point, i.e., how
+
+
+
+
+                                            26
+much additional income does a potential lower-caste groom need to earn in order to
+
+compensate a higher-caste female for her loss of caste status, given that a higher-caste
+
+female is willing to marry down the line of caste? This question can also be re-phrased in
+
+the following manner appropriate in our context. How much additional income a groom
+
+of caste i and income j must earn in order to receive that many responses from responder
+
+caste group k as received by a groom of caste k and income j from the responder group k,
+
+where k denotes a higher caste than i, fixing the other characteristics of these two grooms
+
+which is true in our design?
+
+       We estimate these additional income figures for each of the three possible {k, i}
+
+pairs in our design based on the observed average income sensitivity of caste k responder
+
+group, where the average income sensitivity for a group is defined as the change in the
+
+number of responses from caste k responders as the income of a potential groom from
+
+caste i varies from LI to HI. In other words, how many additional responses on average a
+
+LC groom receives from HC responders as that groom’s income increases from Rs.7000
+
+to Rs.35000 in our design. The sensitivity figures for HC responders with respect to
+
+potential MC and LC grooms are 1.61 and 1.64 respectively, while the same for MC
+
+responders is 1.11 with respect to potential LC grooms. How to read such a figure? For
+
+example, for every Rs. 1000 increase in income of a LC groom expects to receive 1.64
+
+additional responses from HC responders. Somewhat unintuitively, on average a MC
+
+responder increases responses by a smaller number than a HC responder to every Rs.
+
+1000 increase in income of a LC groom, while one would expect the opposite.
+
+       Table 3 presents the income estimates for the three possible pairs. Based on these
+
+trade-off estimates several important observations can be made. First, these estimates in
+
+
+
+
+                                            27
+general indicate prevalence of strong own-caste preference and enormous economic
+
+incentives are needed to overcome this preference. For example, a LC groom with LI
+
+needs an approximate additional income of Rs.49,300 in order to receive the same
+
+number of responses from HC responders as received by a HC groom from HC
+
+responders with the same income feature (see Panel A). Note that this additional income
+
+requirement is more than seven times than LI. Second, an element by element
+
+comparison of income figures between Panels A and B suggest that LC grooms require
+
+larger increments in income than those of MC grooms to compensate a HC responder for
+
+her potential loss of caste status. This result may be attributed to the fact that in the social
+
+hierarchy LC is ranked lower than MC, which in turn implies that the loss in social status
+
+of a HC female for marrying a LC groom is larger than the loss associated with marrying
+
+a MC groom. Hence, LC grooms need to compensate more than MC grooms. Following a
+
+similar argument, one can understand why LC grooms need to compensate a MC
+
+responder less than they need to compensate a HC responder (compare figures in Panels
+
+A and C). Third, the compensation amount provided by a potential lower-caste groom to
+
+a HC responder gradually falls as the monthly income of such a groom rises. However
+
+the trend is completely reversed in case of LC grooms when they compensate MC
+
+responders. We do not have a well-grounded explanation for the latter effect.
+
+       To sum up, these estimates indicate that economic incentives (in terms of
+
+increased income) offered by potential lower-caste grooms have to be substantial in order
+
+to overcome the strong own-caste preference in Indian marriage markets, and larger the
+
+social gap (determined by the caste hierarchy) between the two caste groups the larger is
+
+the amount of income required by lower-caste males to compensate for the loss of caste
+
+
+
+
+                                              28
+status of higher-caste females for making the latter group willing to consider the former
+
+group as potential grooms.
+
+        Another trade-off arises when lower-caste responders reply to higher-caste
+
+grooms. A similar question about the trade-off is: what is the magnitude of potential
+
+groom income that a lower-caste responder is willing to forgo by not marrying an own-
+
+caste groom, and instead expressing willingness to marry a higher-caste groom with
+
+lower income? In order answer this we would need to observe a counterfactual. What is
+
+the highest plausible groom income that would cause a lower-caste responder with given
+
+characteristics to respond to own-caste grooms? If one knows this and also observes a
+
+lower-caste responder with similar characteristics actually responding to a higher-caste
+
+groom with certain income level, then one could estimate the magnitude of income
+
+forgone by a lower-caste responder. However our design cannot afford such data, and
+
+therefore we cannot answer the question raised above.
+
+        3.5    Other Matrimonial Characteristics
+
+       Apart from caste, each response supplies information about several other
+
+characteristics of a girl and her family. This additional information will enable us to
+
+understand better why some of the higher-caste responders are willing to step down the
+
+line of caste and why some of the lower-caste responders are eager to move up the caste
+
+ladder. Tables 4-8 present the distribution of some selected attributes. Parts A to C of
+
+each table present the distributions by three responder caste groups.
+
+       The data on characteristics that are viewed as advantageous for a potential bride
+
+from the standpoint of a marriage market (like employment status, education level, very
+
+fair complexion, and very good looks) reveal interesting patterns. The last column of each
+
+
+
+
+                                            29
+of the Tables 4, 5, 6, and 7, reveal that higher the groom caste, the higher is the share of
+
+responses with the respective attribute. Similarly, we observe that higher the groom
+
+income, the higher the share of responses that possess these attributes (see the last row of
+
+each of the Tables 4, 5, 6, and 7). Home or apartment ownership, an indicator of family
+
+wealth, also depicts similar trends (see Table 8). Thus the aggregate data on these
+
+characteristics suggest that grooms with higher caste and higher income receive proposals
+
+from responders with superior bridal and familial attributes. While this trend is
+
+interesting in itself, disaggregating the aggregate data by responder caste for each
+
+characteristic can unearth whether these patterns hold true for each responder caste
+
+group.
+
+           The disaggregated data reveal that the share of HC responses, possessing each of
+
+the above desirable characteristics, decreases with declining caste status (see the last
+
+column of each of the Tables 4A, 5A, 6A, 7A, and 8A). Holding constant groom income,
+
+the same response pattern is observed (see the 2nd, 3rd, and 4th columns of each of the
+
+Tables 4A, 5A, 6A, 7A, and 8A)24. Additionally share of HC responses, with these
+
+positive attributes, goes up with the rise in groom monthly income (see the last row of
+
+each of the Tables 4A, 5A, 6A, 7A, and 8A), and again, this trend holds while groom
+
+caste is held constant (see the 2nd, 3rd, and 4th rows of each of the Tables 4A, 5A, 6A, 7A,
+
+and 8A). What do these patterns imply? This broadly means that on average HC
+
+responders who possess these superior bridal and familial attributes respond in lower
+
+proportion to lower-caste and lower-income grooms.
+
+           How do MC responders fare compared to their HC counterparts? We find that the
+
+share of MC responses, with each of these positive attributes, is higher when they apply
+24
+     With a minor exception of ‘Very Good Looks’.
+
+
+                                                    30
+for HC grooms than when they apply for own-caste grooms. Strikingly, the share of MC
+
+responses is lower when they apply for LC grooms than when they apply for own-caste
+
+grooms (see the last column and the last row of each of the Tables 4B, 5B, 6B, 7B, and
+
+8B)25. This implies that on average MC responders who possess these superior
+
+matrimonial attributes respond in higher proportion to HC and HI grooms and vice-versa.
+
+        Compared to HC and MC responders, LC responders exhibit a different pattern.
+
+LC responders with these attributes send the largest proportion of their responses to their
+
+own-caste grooms and the second largest of the responses go to MC grooms26.
+
+Furthermore, own-caste LC responses rise with the rise in groom income (see the second-
+
+last row of each of the Tables 4C, 5C, 6C, 7C, and 8C). These regularities in the data
+
+imply that LC responders with these qualities perhaps prefer own-caste grooms with
+
+higher income, and distribute the responses accordingly.
+
+        From these trends we can infer that higher-caste responders with positive
+
+attributes are less willing to marry a lower-caste or a lower-income male. But they are
+
+ready to marry down the caste line only for lower-caste grooms with higher income.
+
+While MC responders with these attributes are more willing to marry HC grooms, LC
+
+responders with positive attributes, on the other hand, are less willing to marry a higher-
+
+caste male. Hence the data suggest that there exists a constellation of factors such as caste
+
+status, groom income, and marital characteristics of brides that may have given rise to
+
+observed patterns.
+
+4       Conclusion
+
+
+
+25
+  With the exception of the attribute ‘Employed Bride’.
+26
+   The only exception is ‘Master’s Degree’ for which they send the largest proportion of responses to MC
+grooms.
+
+
+                                                   31
+       This study serves an important purpose in understanding the interactive relation
+
+between discriminatory preference underlying the search for a potential mate and
+
+economic incentives. Compared to the prior literature that uncovers a set of determinants
+
+of inter-group preferences in marriage markets, our study advances this understanding by
+
+exploring the impact of an enormously essential determinant of mate selection (i.e.,
+
+income) on such preferences.
+
+       To investigate this question, we conduct a field experiment in a reputable
+
+matrimonial market in India. Existing marriages in India are claimed to exhibit a strong
+
+sorting along the caste line where caste of an individual is a proxy for statistical
+
+discrimination and a parameter of social status. We choose three distinct caste groups and
+
+three notably different monthly income figures, and construct advertisements for nine
+
+distinct grooms who differ either in monthly earnings (within a caste group) or in caste
+
+status (across a caste group), while controlling other characteristics. We post these
+
+advertisements in two different editions of a Bengali language newspaper with sufficient
+
+time gap; measure responses from prospective brides’ families for each groom type, and
+
+thus cast light on the research hypothesis.
+
+        There are two major findings. First, each caste group in our study exhibits a
+
+strong preference for in-caste grooms and thereby discriminates against grooms from the
+
+other two castes, despite the fact that both groom types possess the exactly same set of
+
+attributes. Second, economic incentives in terms of higher incomes of lower-caste
+
+grooms have the potential to bend the biased preferences of upper caste females.
+
+       How do the existing theories of inter-group marriages account for these results?
+
+We discuss a prominent and the most well known theory in sociology - social exchange
+
+
+
+
+                                              32
+theory (Merton, 1940). Specifically, we discuss the relevance of this model with a focus
+
+on the inter-caste marriage response data that our experiment yields.
+
+       The social exchange theory postulates that an individual in a marriage market is
+
+represented by a set of characteristics (height, gender, caste, income, age, job, and so on).
+
+These characteristics determine the value of an individual in a marriage market, and also
+
+the social cost of marrying an individual with such characteristics. Coupled with this, if
+
+one assumes that there is a cost (benefit) for higher-caste (lower-caste) females for
+
+marrying someone from lower-caste (higher-caste), then the predictions of this model
+
+succinctly capture key elements of inter-caste response data.
+
+        For example, since Brahmins are at the top of the caste hierarchy, inter-caste
+
+marriage will always come at a social cost to a female from this caste. According to the
+
+social exchange theory, in equilibrium a Brahmin female must be compensated for her
+
+loss of caste status by intermarrying with a lower-caste male who either has higher than
+
+average earnings or possesses superior other matrimonial attributes. Similarly, a
+
+Namasudra (placed at the bottom of the caste hierarchy) female who gains caste status by
+
+intermarrying with a higher-caste male must possess either superior attributes or forego
+
+some income, by plausibly not marrying a higher income own-caste groom, in order to
+
+compensate that higher-caste male. Thus, this theory predicts a trade between various
+
+characteristics and caste status.
+
+       We do not have data on final matches to directly test these predictions. However,
+
+the inter-caste response data from our experiment may indirectly shed some light. The
+
+data indicate that responses from higher-caste females increase monotonically with the
+
+monthly income figures of lower-caste grooms. This might imply that higher-caste
+
+
+
+
+                                             33
+responders are attempting to compensate themselves by applying for lower-caste grooms
+
+with higher income for their potential loss of caste status. This supports the prediction of
+
+the social exchange theory. However, the data does not provide support for the prediction
+
+that a lower-caste female who gains caste status by intermarrying with a higher-caste
+
+male possesses either superior attributes or foregoes some income.
+
+       Our study documents that the tools of field experiment can be effectively used to
+
+gain important insights into the mate selection behavior. With the help of this
+
+methodological tool, we are able to convincingly document that same caste marriages in
+
+India are the result of preferences, and both sides of the market share this preference.
+
+More interestingly, income of a potential groom can play a significant role in dominating
+
+biased preferences. However income is just one of the many vital determinants of mate
+
+selection, and this study takes a small but crucial step towards understanding the impact
+
+of only one such determinant on inter-group intimacy. One could potentially think of
+
+imitating the approach taken by this study to identify impacts of a host of similar
+
+important determinants.
+
+
+
+
+                                            34
+                                          References
+
+       Ahuvia, Aaron C., & Adelman, Mara B. (1992) Formal Intermediaries in the
+Marriage Market: A typology and Review, Journal of Marriage and the Family, 54, 2,
+pp. 452-463.
+
+      Akerlof, George (1976) The Economics of Caste and the Rat Race and Other
+Woeful Tales, The Quarterly Journal of Economics, 90, 4, pp. 599-617.
+
+      Anderson, Siwan (2003) Why Dowry Payments Declined with Modernization in
+Europe but Are Rising in India, Journal of Political Economy, 111, 2, pp. 269-310.
+
+       Austrom, D. & Hanel, K. (1983) Looking for Companionship in the Classified
+Section, Unpublished manuscript, York University.
+
+       Avasthi, Abha (1979) Hindu Marriage in Continuity and Change, Lucknow Pub.,
+House, Lucknow, India.
+
+     Bandyopadhyay, Sekhar (1997) Caste, Protest and Identity in Colonial India: The
+Namasudras of Bengal, 1872-1947, Taylor & Francis, Inc.
+
+      Becker, Gary S. (1957) The Economics of Discrimination, University of Chicago,
+Chicago.
+
+      Becker, Gary S. (1973) A Theory of Marriage: Part I, Journal of Political
+Economy, 81, 4, pp. 813-846.
+
+      Becker, Gary S. (1974) A Theory of Marriage: Part II, Journal of Political
+Economy, 82, 2, Part 2: marriage, Family Human Capital, and Fertility., pp. S11-S26.
+
+       Bertrand, Marianne & Mullainathan, Sendhil (2004) Are Emily and Greg More
+Employable Than Lakisha and Jamal? A Field Experiment on labor Market
+Discrimination, American Economic Review, 94, 4, pp. 991-1013.
+
+       Bisin, Alberto, Topa, Giorgio & Verdier, Thierry (2004) Religious Intermarriage
+and Socialization in the United States, Journal of Political Economy, 112, 3, pp. 615-664.
+
+       Blau, P.M. (1964) Exchange and Power in Social Life, John Wiley & Sons Inc.
+
+      Brown, Colin & Gay, Pat (1985) Racial Discrimination 17 Years After the Act,
+London: Policy Studies Institute.
+
+      Buss, David M. (1989) Toward an Evolutionary Psychology of Human Mating
+Behavioral and Brian Sciences, XII, pp. 39-49.
+
+
+
+
+                                           35
+       Buss, David M. & Schmitt, David P. (1993) Sexual Strategies Theory: An
+Evolutionary Perspective of Human Mating, Psychological Review, C, pp. 204-232.
+
+         Buss, D. (2003) The Evolution of Desire: Strategies of Human Mating. Basic
+Books.
+
+      Choo, E. & Siow, A. (2006) Who Marries Whom and Why, Journal of Political
+Economy, 114, 1, pp.175-201.
+
+        Corwin, Lauren A.(1977) Caste Class and the Love marriage: Social Change in
+India, Journal of marriage and the Family, 39, 4, pp. 823-831.
+
+       Deolalikar, Anil B. & Rao, Vijayendra (1998) The Demand for Dowries and
+Bride Characteristics in Marriage: Empirical Estimates for Rural South Central India, In
+Gender, Population and Development, edited by Krishna R. Maithreyi, Ratna M.
+Sudershan, and Abusaleh Shariff, Oxford University Press, Oxford.
+
+       Deshpande, Ashwini (2001) Caste at Birth? Redefining Disparity in India, Review
+of Development Economics, 5, 1, pp. 130-144.
+
+       Deshpande, Ashwini (2000) Does Caste Still Define Disparity? A look at
+Inequality in Kerala, India, The American Economic Review, 90, 2, pp. 322-325
+
+        Driver, Edwin D. (1984) Social Class and Marital Homogamy in Urban South
+India, Journal of Comparative Family Studies, 15, pp. 195-210.
+
+       Dumont, L. (1980) Homo Hierarchicus: The Caste System and its Implications,
+University of Chicago Press, Chicago.
+
+       Fishman, Raymond, Iyengar, Sheena S., Kamenica, Emir & Simonson, Itamar
+(2008) Racial Preference in Dating, Review of Economic Studies, 75, pp. 117–132.
+
+      Fishman, Raymond, Iyengar, Sheena S, Kamenica, Emir & Simonson, Itamar
+(2006) Gender Differences in Mate Selection: Evidence from a Speed Dating
+Experiment, The Quarterly Journal of Economics, pp. 673-697.
+
+      Frank, Sue A. & Lewis, Gregory B. (2004) Government Employees, The
+American Review of Public Administration, 34, 1, pp. 36-51.
+
+        Fryer Jr., Ronald G. (2007) Guess Who’s Been Coming to Dinner? Trends in
+Interracial Marriage over the 20th Century, Journal of Economic Perspectives, 21, 2, pp.
+71-90.
+
+       Gangopadhyay, Bela (1964) Marriage Regulations Among Certain Castes of
+Bengal, Deccan College Dissertation Series, 25, Poona, India.
+
+
+
+
+                                          36
+       Gist, Noel P. (1953-54) Mate Selection and Mass Communication in India The
+Public Opinion Quarterly, 17, 4, pp. 481-495.
+
+      Harlan, Lindsey & Courtright, Paul B. (1995) From the Margins of Hindu
+Marriage, Oxford University Press.
+
+      Hitsch, Gunter J., Hortacsu, Ali & Ariely, Dan (2006) What Makes You Click? –
+Mate Preferences and Matching Outcomes in Online Dating, MIT Sloan Working Paper
+4603-06.
+
+       Jowell, Roger & Prescott-Clark, Patricia (1970) Racial Discrimination and White
+Collar Workers in Britain, Race, 11, 4, pp. 397-417.
+
+       Kannan, C.T. (1963) Intercaste and Inter-community Marriages in India, Allied
+Publishers Private Limited.
+
+       Kalmijn, M. (1993) Trends in Black/White Intermarriage, Social Forces, 72, 1,
+pp. 119-146.
+
+      Kingsley, Davis (1941) Intermarriage          in   Caste   Societies,   American
+Anthropologist, New Series, 43, 3, pp. 376-395.
+
+       Kurzban, R. & Weeden, J. (2005) Hurry Date: Mate Preferences in Action,
+Evolution and Human Behavior, 26, pp. 227-244.
+
+      Landis, Judson T. (1949) Marriages of Mixed and Non-mixed Religious Faith,
+American Sociological Review, 14, pp. 401-407.
+
+        Levin, Shana, Taylor, Pamela L. & Caudle, Elena (2007) Interethnic and
+interracial dating in college: A longitudinal study, Journal of Social and Personal
+Relationships, 24, 3, pp. 323-341.
+
+      Lynn, Michael & Bolig, Rosemary (1985) Personal Advertisements: Sources of
+Data About Relationships, Journal of Social and Personal Relationships, 2, pp. 377-383.
+
+      Merton, Robert K. (1941) Intermarriage and the Social Structure: Fact and
+Theory, Psychiatry, 4, pp. 361-74.
+
+      Mills, J.K., Daly, J., Longmore, A., & Kilbridge, G. (1995) A Note on Family
+Acceptance Involving Interracial Friendships and Romantic Relationships, Journal of
+Psychology, 129, pp. 349-351
+
+       Mok, T. A. (1999) Asian American Dating: Important Factors in Partner Choice,
+Cultural Diversity and Ethnic Minority Psychology, 5, pp. 103-117.
+
+
+
+
+                                          37
+       Ramu. G.N. (1977) Family and Caste in Urban India: A Case Study. Vikas
+Publishing House Pvt. Ltd., New Delhi.
+
+      Rao, Vijayendra (1993) The Rising Price of Husbands: A Hedonic Analysis of
+Dowry Increases in Rural India, Journal of Political Economy, 101, 4, pp. 666-677.
+
+        Rao, V. V. P. & Rao, V. N. (1980) The Dowry System in Indian Marriages:
+Attitudes, Expectations and Practices, International Journal of Sociology of the Family,
+10, pp. 99-113.
+
+       Reddy, G. Sreenivas & Rajanna, C. (1984) Intercaste Marriage: A Study, Social
+Welfare, 31, pp. 10-12.
+
+       Reddy, N. K. (1978) Marriages in India, The Academic Press.
+
+       Regan, P. C., Levin, L., Sprecher, S., Christopher, S. F., & Rodney, C. (2000)
+Partner preferences: What Characteristics Do Men and Women Desire in Their Short-
+Term Sexual and Long-Term Romantic Partners? Journal of Psychology and Human
+Sexuaity, XII, pp.1-21
+
+      Riach, Peter A. & Rich, Judity. (1991) Testing for Racial Discrimination in the
+Labor Market, Cambridge Journal of Economics, 15, 3, pp.239-256.
+
+        Scoville, J. (1991) Towards a Formal Model of a Caste Economy, In J.Scovile
+(ed.) Status Influences in Third World Labor Markets: Caste, Gender and Custom,
+Walter de Gruyter, Berlin, pp. 49-59
+
+       Stewart, S., Stinnett, H., & Lawrence, B. (2000) Sex Differences in Desired
+Characteristics of Short-Term and Long-Term Relationship Partners, Journal of Social
+and Personal Relationships, XVII, pp.843-853.
+
+       Thomas, John L. (1951) The Factor of Religion in the Selection of Marriage
+Mates, American Sociological Review, 16, pp. 487-491.
+
+       Wang, Hongyu & Kao, Grace (2007) Does Higher Socioeconomic Status Increase
+Contact Between Minorities and Whites? An Examination of Interracial Romantic
+Relationships Among Adolescents, Social Science Quarterly, 88, 1, pp. 146-164.
+
+      Wong, L.Y. (2003) Structural Estimation of Marriage Models, Journal of Labor
+Economics, 21, 3, pp. 699-727.
+
+
+
+
+                                           38
+Table 1A Summary Statistics of Selected Variables Based on Collected
+Advertisements
+--------------------------------------------------------------------------------------------------
+                           Aggregate         HC                MC                LC
+--------------------------------------------------------------------------------------------------
+Income (Rs.)
+Obs.                       1261              527               375               359
+Mean                       15858.45          17231.5           16714             12949.16
+Std. Dev.                  9893.77           8375.99           12316.67          8421.84
+Min                        2000              4500              2000              3500
+Max                        50000             40000             50000             50000
+--------------------------------------------------------------------------------------------------
+Age (Years)
+Obs.                       2776              1368              768               640
+Mean                       31.75             32.07             31.33             31.56
+Std. Dev.                  4.27              4.35              4.38              3.88
+Min                        22                22                23                24
+Max                        50                46                50                43
+--------------------------------------------------------------------------------------------------
+Height (Feet.Inches)
+Obs.                       2777              1368              768               768
+Mean                       5.47              5.44              5.54              5.35
+Std. Dev.                  0.31              0.31              0.32              0.30
+Min                        4.1               4.1               4.1               4.1
+Max                        6.2               6.1               7.5               6.2
+--------------------------------------------------------------------------------------------------
+
+Table 1B Summary Statistics of Selected Variables Based on Collected
+Advertisements
+--------------------------------------------------------------------------------------------------
+                           Aggregate         HC                MC                LC
+--------------------------------------------------------------------------------------------------
+Govt. Job                  2220              1100              591               529
+                           (79.94)           (80.41)           (76.95)           (82.53)
+PO Box                     1529              802               381               346
+                           (55.06)           (58.63)           (49.61)           (53.98)
+Caste No Bar               104               45                15                44
+                           (3.75)            (3.29)            (1.95)            (6.86)
+Income Mentioned 1261                        527               375               359
+                           (45.41)           (38.52)           (48.83)           (56.01)
+Looks Mentioned            1619              779               406               434
+                           (58.30)           (56.94)           (52.86)           (67.71)
+Education                  571               275               196               100
+Not Mentioned              (20.56)           (20.10)           (25.52)           (15.60)
+--------------------------------------------------------------------------------------------------
+Figures in parentheses denote percentage
+
+
+
+                                                    39
+Table 2 Total Number of Responses Received by Different Groom Types
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      140               126               146               412
+                  MC                159               114               82                355
+                  LC                178               101               77                356
+--------------------------------------------------------------------------------------------------
+                  Total             477               341               305               1123
+--------------------------------------------------------------------------------------------------
+
+Table 2A Distribution of Responses from HC Group (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      23.01             17.78             17.99             58.79
+                  MC                13.81             6.07              4.39              24.27
+                  LC                10.67             5.23              1.05              16.95
+--------------------------------------------------------------------------------------------------
+                  Total             47.49             29.08             23.43             100.00
+--------------------------------------------------------------------------------------------------
+Total number of responses from HC = 478
+
+Table 2B Distribution of Responses from MC Group (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      7.22              9.09              10.43             26.74
+                  MC                22.19             12.30             7.75              42.25
+                  LC                15.51             8.29              7.22              31.02
+--------------------------------------------------------------------------------------------------
+                  Total             44.92             29.68             25.40             100.00
+--------------------------------------------------------------------------------------------------
+Total number of responses from MC = 374
+
+Table 2C Distribution of Responses from LC Group (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      1.11              2.58              7.75              11.44
+                  MC                3.69              14.39             11.81             29.89
+                  LC                25.46             16.61             16.61             58.67
+--------------------------------------------------------------------------------------------------
+                  Total             30.26             33.58             36.16             100.00
+--------------------------------------------------------------------------------------------------
+Total number of responses from LC = 271
+
+
+
+                                                    40
+Table 3 Caste-Income Trade-off Estimates when Higher-Caste Responders Respond
+to Lower-Caste Grooms
+
+------------------------------------------------------------------------------------------------------------
+Responder                           Groom             Groom             ΔIncome
+Caste                               Caste             Income            (‘000 Rs.)
+------------------------------------------------------------------------------------------------------------
+Panel A
+HC                                  LC                7000              49.3
+HC                                  LC                15000             37.1
+HC                                  LC                35000             35.9
+
+Panel B
+HC                                  MC                7000              40.4
+HC                                  MC                15000             34.8
+HC                                  MC                35000             27.4
+
+Panel C
+MC                                  LC                7000              1.8
+MC                                  LC                15000             13.6
+MC                                  LC                35000             22.6
+------------------------------------------------------------------------------------------------------------
+Notes:
+
+i. Each ΔIncome figure denotes the magnitude of additional income that a groom of ith caste and jth income
+needs in order to receive as many responses as a groom of the responder’s own caste with jth income
+received. For example, the LC groom with Rs.7,000 needs an additional income of Rs. 49,300 to get as
+many responses from HC responders as the HC groom with Rs.7000 received from HC responders in our
+data.
+
+ii. These estimates are based on average income sensitivity figures.
+
+
+
+
+                                                     41
+Table 4 Distribution of Responses with ‘Employed’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      23.44             17.19             13.54             54.17
+                  MC                10.42             8.33              3.13              21.88
+                  LC                16.67             4.69              2.60              23.96
+--------------------------------------------------------------------------------------------------
+                  Total             50.52             30.21             19.27             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 172; Percentage of total responses = 17
+
+Table 4A Distribution of HC Responses with ‘Employed’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      39.33             19.10             15.73             74.16
+                  MC                8.99              4.49              3.37              16.85
+                  LC                6.74              2.25              0.00              8.99
+--------------------------------------------------------------------------------------------------
+                  Total             55.06             25.84             19.10             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 89; Percentage of HC responses = 19
+
+Table 4B Distribution of MC Responses with ‘Employed’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      17.31             25.00             13.46             55.77
+                  MC                17.31             1.92              0.00              19.23
+                  LC                17.31             3.85              3.85              25.00
+--------------------------------------------------------------------------------------------------
+                  Total             51.92             30.77             17.31             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 52; Percentage of MC responses = 14
+
+Table 4C Distribution of LC Responses with ‘Employed’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      1.96              5.88              9.80              17.65
+                  MC                5.88              21.57             5.88              33.33
+                  LC                33.33             9.80              5.88              49.02
+--------------------------------------------------------------------------------------------------
+                  Total             41.18             37.25             21.57             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 51; Percentage of LC responses = 19
+
+
+                                                    42
+Table 5 Distribution of Responses with ‘Master’s Degree’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      20.10             16.79             16.28             53.18
+                  MC                14.76             9.92              5.09              29.77
+                  LC                10.43             5.34              1.27              17.05
+--------------------------------------------------------------------------------------------------
+                  Total             45.29             32.06             22.65             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 393; Percentage of total responses = 35
+
+Table 5A Distribution of HC Responses with ‘Master’s Degree’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      36.41             20.65             17.39             74.46
+                  MC                11.96             3.26              1.63              16.85
+                  LC                7.07              1.63              0.00              8.70
+--------------------------------------------------------------------------------------------------
+                  Total             55.43             25.54             19.02             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 184; Percentage of HC responses = 39
+
+Table 5B Distribution of MC Responses with ‘Master’s Degree’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      8.40              18.32             16.79             43.51
+                  MC                25.19             10.69             3.82              39.69
+                  LC                13.74             2.29              0.76              16.79
+--------------------------------------------------------------------------------------------------
+                  Total             47.33             31.30             21.37             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 131; Percentage of MC responses = 35
+
+Table 5C Distribution of LC Responses with ‘Master’s Degree’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      1.28              5.13              12.82             19.23
+                  MC                3.85              24.36             15.38             43.59
+                  LC                12.82             19.23             5.13              37.18
+--------------------------------------------------------------------------------------------------
+                  Total             17.95             48.72             33.33             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 78; Percentage of LC responses = 29
+
+
+                                                    43
+Table 6 Distribution of Responses with ‘Very Fair Complexion’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      18.02             15.32             14.71             48.05
+                  MC                13.51             8.71              6.31              28.53
+                  LC                14.11             5.41              3.90              23.42
+--------------------------------------------------------------------------------------------------
+                  Total             45.65             29.43             24.92             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses: 333; Percentage of total responses: 30
+
+Table 6A Distribution of HC Responses with ‘Very Fair Complexion’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      34.96             21.95             14.63             71.54
+                  MC                9.76              4.88              4.88              19.51
+                  LC                6.50              1.63              0.81              8.94
+--------------------------------------------------------------------------------------------------
+                  Total             51.22             28.46             20.33             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 123; Percentage of HC responses = 26
+
+Table 6B Distribution of MC Responses with ‘Very Fair Complexion’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      12.50             15.63             15.63             43.75
+                  MC                24.22             7.81              0.78              32.81
+                  LC                16.41             4.69              2.34              23.44
+--------------------------------------------------------------------------------------------------
+                  Total             53.13             28.13             18.75             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 128; Percentage of MC responses = 34
+
+Table 6C Distribution of LC Responses with ‘Very Fair Complexion’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      1.22              4.88              13.41             19.51
+                  MC                2.44              15.85             17.07             35.37
+                  LC                21.95             12.20             10.98             45.12
+--------------------------------------------------------------------------------------------------
+                  Total             25.61             32.93             41.46             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 82; Percentage of LC responses = 30
+
+
+                                                    44
+Table 7 Distribution of Responses with ‘Very Good Looks’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      19.51             18.29             15.85             53.66
+                  MC                9.76              6.10              4.88              20.73
+                  LC                15.85             3.66              6.10              25.61
+--------------------------------------------------------------------------------------------------
+                  Total             45.12             28.05             26.83             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 82; Percentage of total responses = 7
+
+Table 7A Distribution of HC Responses with ‘Very Good Looks’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      38.89             25.00             19.44             83.33
+                  MC                5.56              0.00              0.00              5.56
+                  LC                11.11             0.00              0.00              11.11
+--------------------------------------------------------------------------------------------------
+                  Total             55.56             25.00             19.44             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 36; Percentage of HC responses = 8
+
+Table 7B Distribution of MC Responses with ‘Very Good Looks’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      4.55              27.27             9.09              40.91
+                  MC                27.27             4.55              0.00              31.82
+                  LC                13.64             0.00              13.64             27.27
+--------------------------------------------------------------------------------------------------
+                  Total             45.45             31.82             22.73             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 22; Percentage of MC responses = 6
+
+Table 7C Distribution of LC Responses with ‘Very Good Looks’ Bride (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      4.17              0.00              16.67             20.83
+                  MC                0.00              16.67             16.67             33.33
+                  LC                25.00             12.50             8.33              45.83
+--------------------------------------------------------------------------------------------------
+                  Total             29.17             29.17             41.67             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 24; Percentage of LC responses = 9
+
+
+                                                    45
+ Table 8 Distribution of Responses with ‘Home or Apartment Ownership’ (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      20.97             11.94             15.16             48.06
+                  MC                11.94             7.74              5.81              25.48
+                  LC                14.19             6.45              5.81              26.45
+--------------------------------------------------------------------------------------------------
+                  Total             47.10             26.13             26.77             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 310; Percentage of total responses = 28
+
+Table 8A Distribution of HC Responses with ‘Home or Apartment Ownership’ (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      40.68             19.49             15.25             75.42
+                  MC                6.78              4.24              2.54              13.56
+                  LC                6.78              3.39              0.85              11.02
+--------------------------------------------------------------------------------------------------
+                  Total             54.24             27.12             18.64             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 118; Percentage of HC responses = 25
+
+Table 8B Distribution of MC Responses with ‘Home or Apartment Ownership’ (%)
+-------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      13.39             9.82              16.96             40.18
+                  MC                22.32             8.04              5.36              35.71
+                  LC                16.96             3.57              3.57              24.11
+--------------------------------------------------------------------------------------------------
+                  Total             52.68             21.43             25.89             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 112; Percentage of MC responses = 30
+
+Table 8C Distribution of LC Responses with ‘Home or Apartment Ownership’ (%)
+--------------------------------------------------------------------------------------------------
+Groom Income (Rs.)                  35000 (HI)        15000 (MI) 7000 (LI)                Total
+--------------------------------------------------------------------------------------------------
+Groom Caste HC                      2.50              3.75              12.50             18.75
+                  MC                5.00              12.50             11.25             28.75
+                  LC                21.25             15.00             16.25             52.50
+--------------------------------------------------------------------------------------------------
+                  Total             28.75             31.25             40.00             100.00
+--------------------------------------------------------------------------------------------------
+Number of responses = 80; Percentage of LC responses = 30
+
+
+                                                   46
+Figure 1 Distribution of Groom Income from the Collected Marriage Ads
+
+
+
+
+                                      47
+

@@ -1,0 +1,174 @@
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+suppressPackageStartupMessages(library(dplyr))
+out <- function(name) read.csv(file.path("output", paste0(name, ".csv")), check.names = FALSE)
+cross <- out("headline_cross_caste_shares")
+el <- out("headline_income_elasticities")
+unc <- out("audit_table6_uncertainty")
+seg <- out("audit_table6_segment_slopes")
+logit <- out("audit_table6_logit")
+cmp <- out("comparison_summary")
+bench <- out("headline_assortative_benchmark")
+sac <- out("headline_income_sacrifice")
+b_all <- bench[bench$responder_caste == "All", ]
+sac_mc_lc <- sac[sac$responder_caste == "MC" & sac$alternative_caste == "LC", ]
+n_bound <- sum(sac$at_design_bound)
+pct <- function(x, d = 0) paste0(formatC(100 * x, format = "f", digits = d), "%")
+num <- function(x, d = 1) formatC(x, format = "f", digits = d, big.mark = ",")
+rs <- function(x) formatC(round(1000 * x, -2), format = "d", big.mark = ",")
+row_hc_lc <- el[el$responder_caste == "HC" & el$groom_caste == "LC", ]
+row_hc_hc <- el[el$responder_caste == "HC" & el$groom_caste == "HC", ]
+row_hc_mc <- el[el$responder_caste == "HC" & el$groom_caste == "MC", ]
+row_lc_hc <- el[el$responder_caste == "LC" & el$groom_caste == "HC", ]
+u_hi <- unc[unc$responder_caste == "HC" & unc$groom_caste == "LC" & unc$income_level == "HI", ]
+u_li <- unc[unc$responder_caste == "HC" & unc$groom_caste == "LC" & unc$income_level == "LI", ]
+s_hi <- seg[seg$responder_caste == "HC" & seg$groom_caste == "LC" & seg$income_level == "HI", ]
+l_hi <- logit[logit$responder_caste == "HC" & logit$groom_caste == "LC" & logit$income_level == "HI", ]
+c_all <- cross[cross$sample == "paper (1,123 letters)" & cross$responder_caste == "All", ]
+c_hc <- cross[cross$sample == "paper (1,123 letters)" & cross$responder_caste == "HC", ]
+c_mc <- cross[cross$sample == "paper (1,123 letters)" & cross$responder_caste == "MC", ]
+c_lc <- cross[cross$sample == "paper (1,123 letters)" & cross$responder_caste == "LC", ]
+```
+
+# Can't Buy Me Love?
+
+An R reproduction and review of Dugar, Bhattacharya and Reiley,
+[*Can't Buy Me Love? A Field Experiment Exploring the Trade-off Between Income and Caste-Status in an Indian Matrimonial Market*](https://doi.org/10.1111/j.1465-7295.2011.00398.x)
+(Economic Inquiry, 2012). Nine fictitious "brides wanted" advertisements, three castes (Brahmin, Kayastha,
+Namasudra) by three monthly incomes (Rs 7,000, 15,000, 35,000), ran twice in *Anandabazar Patrika* in
+September 2007 and drew 1,366 letters. The paper analyses the 1,123 it treats as unique.
+
+## At a glance
+
+| | |
+|---|---|
+| **`r pct(c_all$cross_caste)`** | of letters went to a groom outside the writer's caste |
+| **`r pct(row_hc_lc$share_35k, 1)` vs `r pct(row_hc_hc$share_35k, 1)`** | share of Brahmin families' letters to the Namasudra groom vs the Brahmin groom, both advertising Rs 35,000 |
+| **`r pct(row_hc_lc$share_7k, 1)` vs `r pct(row_hc_hc$share_7k, 1)`** | the same at Rs 7,000 |
+| **`r num(row_hc_lc$elasticity_loglog, 2)`** | income elasticity of Brahmin families' letter share to the Namasudra groom (95% CI `r num(row_hc_lc$elasticity_lower, 2)`–`r num(row_hc_lc$elasticity_upper, 2)`); own-caste groom: `r num(row_hc_hc$elasticity_loglog, 2)` |
+| **Rs `r rs(u_hi$estimate)`** | paper's Table 6: extra monthly income the Namasudra groom needs to match the Brahmin groom's share (reproduces exactly) |
+| **Rs `r rs(u_hi$lower_boot)`–`r rs(u_hi$upper_boot)`** | its 95% bootstrap interval, which the paper does not report |
+| **Rs `r rs(l_hi$compensation_logit_k)`–`r rs(s_hi[["MI-HI"]])`** | the same figure under a logit or a different income slope |
+| **Rs `r rs(35 + u_hi$estimate)`** | implied income; the highest of 1,261 real ads was Rs 50,000 |
+| **53% vs 33%** | own-caste share of letters observed vs the caste-blind benchmark (three of nine ads are own-caste); sorting index `r num(b_all$sorting_index, 2)` on a 0 (caste-blind) to 1 (fully endogamous) scale |
+| **≥ Rs 28,000 a month** | income families forgo for an own-caste groom in `r n_bound` of 6 caste pairings: the own-caste groom at Rs 7,000 still out-draws the other-caste groom at Rs 35,000 |
+| **Rs `r rs(sac_mc_lc$sacrifice_k)`** | the one interior case: Kayastha families vs a Namasudra groom (`r pct(sac_mc_lc$sacrifice_share_of_35k)` of Rs 35,000; 95% CI Rs `r rs(sac_mc_lc$sacrifice_lower)`–`r rs(sac_mc_lc$sacrifice_upper)`) |
+| **243, not 47** | letters dropped by the `repeat` flag vs the number the text describes; keeping them roughly halves Table 6 |
+
+## What changes from the paper
+
+1. **The qualitative results stand.** Own-caste preference and the pull of income across caste lines are
+   large, precisely estimated, and robust to letter-level inference, exact multinomial variances, and the
+   two newspaper editions.
+2. **The rupee magnitudes do not.** "Almost double his income" is one point in an interval running from
+   about +50% to nearly +200%, and from +36% to +130% across defensible functional forms. Every implied
+   income lies outside the range of real advertisements.
+3. **Two secondary Table 6 claims lose support.** That Namasudra grooms need more than Kayastha grooms,
+   and that the compensation falls with income, are differences of noisy ratios whose intervals include zero.
+4. **The analysis sample rests on an undocumented rule.** The 243-letter exclusion is not the 47-letter
+   exclusion the text describes, and it is not neutral: the dropped letters favour lower-caste,
+   high-income grooms.
+5. **Corrections to print:** Table 6 Kayastha panel (17.16 → 13.55, 0.00 → 1.81); footnote 16's "rejected
+   at 1%" is p = 0.78; Table 5 column (3) shows p-values, not standard errors; Table 2 does not match the
+   supplied ad file.
+
+**`r pct(c_all$cross_caste)` of the 1,123 letters went to a groom outside the writer's caste.** Brahmin
+families sent `r pct(c_hc$cross_caste)` of their letters down the caste ladder; Kayastha families sent
+`r pct(c_mc$down)` down and `r pct(c_mc$up)` up; Namasudra families sent `r pct(c_lc$up)` up. These are
+letters written to an advertisement, the first move in an arranged-marriage search, not marriages.
+
+**Money moves letters across caste lines.** The share of Brahmin families' letters going to the Namasudra
+groom rises from `r pct(row_hc_lc$share_7k, 1)` at Rs 7,000 to `r pct(row_hc_lc$share_35k, 1)` at Rs 35,000:
+an income elasticity of **`r num(row_hc_lc$elasticity_loglog, 2)`** (95% bootstrap interval
+`r num(row_hc_lc$elasticity_lower, 2)` to `r num(row_hc_lc$elasticity_upper, 2)`), against
+`r num(row_hc_hc$elasticity_loglog, 2)` for the Brahmin groom and `r num(row_hc_mc$elasticity_loglog, 2)` for the
+Kayastha groom. Namasudra families' letters to the Brahmin groom *fall* with his income (elasticity
+`r num(row_lc_hc$elasticity_loglog, 2)`). [All nine elasticities](output/headline_income_elasticities.md).
+
+**The paper's rupee figures are far less certain than they read.** Its Table 6 says a Namasudra groom
+advertising Rs 35,000 needs about Rs `r rs(u_hi$estimate)` more per month to draw the share of
+Brahmin letters a Brahmin groom draws. That point reproduces exactly. Its 95% bootstrap interval is
+Rs `r rs(u_hi$lower_boot)` to `r rs(u_hi$upper_boot)`, and the same gap closes with
+Rs `r rs(l_hi$compensation_logit_k)` under a logit, Rs `r rs(s_hi[["LI-MI"]])` using the
+low-to-medium income slope, or Rs `r rs(s_hi[["MI-HI"]])` using the medium-to-high slope. Every
+implied income exceeds the 99th percentile of the 1,261 real advertisements the authors collected.
+[Read the review](ms/review.md).
+
+![Table 6 with bootstrap intervals and alternative slopes](figs/compensation_uncertainty.png)
+
+| Question | Finding |
+|---|---|
+| Do Tables 3, 4, 5 and the footnote tests reproduce? | Yes: `r sum(cmp$matched[cmp$table %in% c("Table 3", "Table 4", "Table 5", "Table 5 fit")])` of `r sum(cmp$cells[cmp$table %in% c("Table 3", "Table 4", "Table 5", "Table 5 fit")])` cells to printed precision; 20 of 21 footnote tests. Footnote 16's "rejected at 1%" for MCG-LI = LCG-LI is wrong (p = 0.78); the body text has it right. |
+| Does Table 6 reproduce? | The two Brahmin panels do. The Kayastha panel has an arithmetic slip: 17.16 should be 13.55 by the paper's own formula, and 0.00 should be 1.81. |
+| Does treating the letter as the unit change inference? | No. Letter-clustered and exact multinomial standard errors are within 12% of the paper's robust ones; every verdict survives. |
+| Are the two newspaper editions consistent? | Yes at the share level (chi-square p = 0.86, 0.13, 0.21 by responder caste). Table 6 cells differ a lot between editions. |
+| Which exclusion matters? | 243 letters flagged `repeat` are dropped. The text describes 47. The dropped letters favour lower-caste, high-income grooms; with all 1,366 letters the Table 6 figures roughly halve. |
+| Does Table 2 (real ads) reproduce from the Excel file? | No. Counts differ by 1–6 per caste and the Brahmin sheet has 412 non-integer ages and 1,267 non-integer heights that look filled in. |
+| Do higher-quality responders demand more (§4.4, unreported)? | Not recoverable at quartile level (cells too small). At the median split the direction holds for Brahmin families and reverses for Kayastha families. |
+
+## Assortative matching benchmark
+
+Each caste's letters faced the same menu: three own-caste ads and six other-caste ads, with identical
+income options in every caste block. A family that ignored caste, whatever its income preference, would send
+one third of its letters to own-caste grooms. Observed:
+
+| Responder caste | Letters | Own-caste share | Caste-blind benchmark | Ratio | Sorting index |
+|---|---|---|---|---|---|
+`r paste(sprintf("| %s | %d | %s | 33.3%% | %.2f | %.2f |", bench$responder_caste, bench$letters, pct(bench$own_caste_observed, 1), bench$ratio_to_benchmark, bench$sorting_index), collapse = "\n")`
+
+The sorting index is (observed − 1/3) / (1 − 1/3): 0 is caste-blind, 1 is fully endogamous. Banerjee et al.
+report 69% same-caste among observed marriages against a ~20% random-matching benchmark from their
+advertiser pool; letters here sort less strongly than marriages there, as a first move should.
+
+## Income sacrificed for own caste
+
+How much advertised income does a family give up to stay in caste? For each responder caste and each
+other-caste alternative, find the own-caste groom income at which the own-caste letter share falls to the
+other-caste groom's share at Rs 35,000; the sacrifice is Rs 35,000 minus that income. This is revealed in
+letters written, not in welfare or in marriages.
+
+| Responder | Alternative groom | Own-caste share at Rs 7,000 | Alternative's share at Rs 35,000 | Sacrifice (Rs/month) | 95% bootstrap |
+|---|---|---|---|---|---|
+`r paste(sprintf("| %s | %s | %s | %s | %s | %s |", sac$responder_caste, sac$alternative_caste, pct(sac$own_share_7k, 1), pct(sac$alternative_share_35k, 1), ifelse(sac$at_design_bound, "at least 28,000 (design bound)", rs(sac$sacrifice_k)), ifelse(sac$at_design_bound, paste0(rs(sac$sacrifice_lower), "–28,000"), paste0(rs(sac$sacrifice_lower), "–", rs(sac$sacrifice_upper)))), collapse = "\n")`
+
+In five of six pairings the design cannot find the crossing: the own-caste groom on Rs 7,000 still draws
+more of a caste's letters than a groom of another caste on Rs 35,000. Brahmin and Namasudra families' letter
+shares are consistent with forgoing at least 80% of a Rs 35,000 income to stay in caste. Kayastha families
+are the exception against a Namasudra groom: about Rs `r rs(sac_mc_lc$sacrifice_k)`, or
+`r pct(sac_mc_lc$sacrifice_share_of_35k)` of income. Banerjee et al.'s matching model puts the analogous
+income sacrifice at about ₹103 a month for women assigned a same-caste husband; the two numbers answer
+different questions (what a family forgoes in the partner it ends up with, versus what advertised income it
+takes to pull its first letter across caste lines), and the gap between them is itself a finding.
+
+## Relation to Banerjee, Duflo, Ghatak and Lafortune (2013)
+
+The sibling repository [`for-better-or-caste`](https://github.com/soodoku/for-better-or-caste) reproduces
+*Marry for What?*, which studies letters to real advertisers in the same newspaper in 2002–03. The two
+papers measure adjacent stages of the same search and both put a price on caste.
+
+| | Banerjee et al. (2013) | Dugar et al. (2012), this repository |
+|---|---|---|
+| Who chooses | Advertising family shortlists incoming letters | Reader's family chooses which ad to answer |
+| Stage | Second move (consideration) | First move (writing) |
+| Cross-caste share | 31% of observed marriages; strong same-caste shortlisting (+13 to +17 pp) | `r pct(c_all$cross_caste)` of letters cross caste; Brahmin families give the own-caste groom `r pct(row_hc_hc$share_35k, 1)` vs `r pct(row_hc_lc$share_35k, 1)` for the Namasudra groom at Rs 35,000 |
+| Price of caste | About 49% outside-caste income premium (bootstrap 25–82%) from the shortlisting model | About `r pct(u_hi$estimate / 35)` more income for a Namasudra groom at Rs 35,000 (bootstrap `r pct(u_hi$lower_boot / 35)` to `r pct(u_hi$upper_boot / 35)`; `r pct(l_hi$compensation_logit_k / 35)` under a logit) |
+| Income responsiveness | Estimated within a preference model | Elasticity of the cross-caste letter share `r num(row_hc_lc$elasticity_loglog, 2)` (Brahmin → Namasudra) |
+
+The two premia are not the same quantity: one is what a family gives up in a partner's income to stay in
+caste when choosing among real letters, the other is how much advertised income it takes to make a
+lower-caste ad as attractive as an own-caste ad to families who write. They agree that caste preference is
+strong and that income moves it; neither pins the exchange rate down to better than a factor of two.
+
+## Reproduce
+
+```sh
+make deps     # renv restore into .R/library
+make run      # prepare, replicate, compare, audit, figures, README
+make test     # gates: row conservation, Tables 4-6 match
+make lint
+```
+
+R 4.6.0. Original files are untouched in `data/original/` (hashes in `manifest.csv`). The two paper drafts
+used are in `sources/` with a [version manifest](sources/paper_versions.csv); the published journal text was
+not available. Scripts are in `src/`, tables in `output/`, figures in `figs/`, the review in `ms/`, and the
+letter-level codebook in `data/derived/codebook.md`.
