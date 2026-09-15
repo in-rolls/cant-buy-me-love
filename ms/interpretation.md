@@ -89,27 +89,31 @@ down; whether it buys anything from the majority is not observed.
 
 > Figure in each shaded cell denotes on average how much additional monthly income (in Rs. thousand) a given lower-caste groom, belonging to a specific income category, would need in order to compensate a given higher-caste responder group so that that responder responds to him with the same probability as to a groom from her own caste belonging to the same income category.
 
-"Probability of obtaining a response" is a count of families. The word "compensate" turns that count into
-a trade-off inside a family's head, and the design observes no such thing. The paper itself describes the
+"Probability of obtaining a response" is a count of families, and "compensate" turns that count into a
+trade-off inside one family's head. Nothing of the kind was observed. The paper itself describes the
 market:
 
 > On an average, 1000 matrimonial advertisements are published in every Sunday edition of this newspaper.
 
-(§2.) About 370 of those were from grooms. The nine fictitious ads sat among them, in the same caste-sorted
-columns. A letter cost Rs 3 to 7.50. A family writes to every ad it finds acceptable, and expects, rightly,
-to find plenty of grooms of its own caste next Sunday. So a letter to ad j records that the family found j
-acceptable that week; it does not record that the family ranked j above the other eight fictitious ads, and
-it says nothing about the hundreds of real ads the same family may have written to. When the paper argues
-in §5 that
+(§2.) About 370 of those were from grooms, sorted into caste columns, and a letter cost Rs 3 to 7.50. Take
+the two cells behind the headline. Among the 478 letters from Brahmin families, 110 went to the Brahmin
+groom at Rs 35,000 and 51 to the Namasudra groom at Rs 35,000. Those are different households; no family
+was shown both grooms and asked to choose. Each of them scanned a column holding dozens of Brahmin grooms at
+every income, and at Rs 5 a letter wrote to every ad that cleared its bar. A letter to the fictitious
+Namasudra ad records that it cleared the bar for that family; a letter to the fictitious Brahmin ad records
+the same for another family. The 110 and the 51 therefore count how many families found each ad acceptable
+that week. Equalising the two counts by raising the Namasudra groom's income answers a market question, how
+rich he must be for as many Brahmin families to consider him, and even that only if the income lies within
+the range tried, which it does not. It does not answer what any family would accept in exchange for caste,
+because every family in the data could also write, that same week, to a rich Brahmin, and most of the
+families who wrote to a poor Brahmin gave up nothing by doing so. When the paper argues in §5 that
 
 > a higher-caste female who responded to the HI groom of a lower-caste group also had the option of responding to the HI groom from her own caste as all the nine advertisements appeared in the same edition of the newspaper
 
-it treats the nine as her menu. She had the option of both, and of several hundred more, at Rs 5 each.
-Equalising two ads' letter counts therefore prices no trade-off any family made. Banerjee, Duflo, Ghatak and
-Lafortune can quote an income premium because they watch one advertiser rank the letters it actually
-received: a choice, within one family, over a real set. Nothing in this design is of that kind. What the
-counts support is how many families of each caste found each ad worth a letter, and how that number moves
-with income.
+it treats the nine as her menu. She had the option of both, and of several hundred more. Banerjee, Duflo,
+Ghatak and Lafortune can quote an income premium because they watch one advertiser rank the letters it
+actually received: a choice, within one family, over a real set. What these counts support is how many
+families of each caste found each ad worth a letter, and how that number moves with income.
 
 ## 7. The price has no interval, no support, and no model
 

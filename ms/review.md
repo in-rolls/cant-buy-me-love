@@ -135,9 +135,9 @@ edition, roughly 370 from grooms. A letter cost Rs 5. A family writes to every a
 the count of letters an ad received is the number of families who found it acceptable that week, not the
 number who ranked it above the other eight fictitious ads or above the real ones. Table 6 equalises two
 ads' counts and calls the result the income a groom "would need in order to compensate" a family; no
-family's trade-off is observed. The same objection defeats the inverse reading (own poor groom out-draws
-other rich groom, so families "forgo" Rs 28,000), which an earlier version of this repository made and
-which is retained only as [`output/audit_table6_inverted.md`](../output/audit_table6_inverted.md). What the
+family's trade-off is observed. An earlier version of this repository inverted the logic and reported income families "forgo" for caste;
+that was retracted for the same reason: the counts being compared are different families, each facing a
+menu of hundreds. What the
 counts support is relative draw across ads and its income gradient (elasticities), and a sorting index
 against the caste-blind third. Banerjee et al. (2013) observe the other side, an advertiser ranking the
 letters it actually received; theirs is a choice within a family, and only that kind of observation prices

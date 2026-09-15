@@ -99,25 +99,56 @@ cross-caste letters are Kayastha families writing in either direction, so the ag
 
 Table 6 asks, in the paper's words, "how much additional monthly income a groom with a caste status c2 and
 a monthly income of y would need in order to achieve the same probability of obtaining a response from
-responders with caste status c1, as that of a groom with a caste status c1 and a monthly income of y". The
-"probability of obtaining a response" is a count: how many families wrote to that ad. The nine ads were not
-the families' choice set. The paper reports that "on an average, 1000 matrimonial advertisements are
-published in every Sunday edition of this newspaper", about 370 of them from grooms. A letter cost Rs 5, so
-a family writes to every ad it finds acceptable, and a letter to ad j says only that the family found j
-acceptable that week, not that it ranked j above the other eight, still less above the hundreds of real
-ads on the same pages. Families also expect, rightly, to find plenty of grooms within their own caste in the
-next edition (Banerjee et al. build their cost argument on exactly this). So a letter to a poor own-caste
-groom gives up nothing against a rich own-caste groom, and equalising two ads' letter counts prices no
-trade-off that any family made.
+responders with caste status c1, as that of a groom with a caste status c1 and a monthly income of y". An
+earlier version of this README inverted that logic and reported the income families "forgo" for caste.
+Both readings fail, and it is worth being slow about why.
 
-The same objection defeats the inverse inference, which an earlier version of this README made: that
-because an own-caste groom on Rs 7,000 out-draws an other-caste groom on Rs 35,000, families "forgo at
-least Rs 28,000" for caste. Counts of acceptors across families are not sacrifices within a family. That
-table is kept only as [Table 6 run backwards](output/audit_table6_inverted.md), to show the logic yields
-bounds as empty as the paper's point estimates.
+Take the two cells the inverted reading used. Among the `r sum(t4$HC)` letters from Brahmin families,
+`r t4$HC[t4$groom == "HCG-LI"]` went to the Brahmin groom advertising Rs 7,000 and `r t4$HC[t4$groom == "LCG-HI"]`
+to the Namasudra groom advertising Rs 35,000. The inverted reading said: Brahmin families prefer a poor
+Brahmin to a rich Namasudra, so they give up at least Rs 28,000 a month to stay in caste.
 
-What the counts do support: how many families of each caste found each ad worth a letter, and how that
-number moves with the groom's advertised income. Those are the per-ad shares and the elasticities above.
+**The two counts are different families.** The `r t4$HC[t4$groom == "HCG-LI"]` and the
+`r t4$HC[t4$groom == "LCG-HI"]` are, with rare exceptions, different households. No family was shown those
+two grooms and asked to pick. A sacrifice is a statement about one decision-maker facing two options; a count
+is a statement about how many decision-makers found one option worth a stamp.
+
+**Each family's real menu was hundreds of ads.** The paper reports "on an average, 1000 matrimonial
+advertisements are published in every Sunday edition of this newspaper", about 370 from grooms, sorted into
+caste columns. A Brahmin family scanning its column saw dozens of Brahmin grooms at every income, including
+many at Rs 35,000 and above. Writing to the fictitious Brahmin at Rs 7,000 does not mean the family turned
+down the Namasudra at Rs 35,000; it means the poor Brahmin cleared the family's bar. The same family may have
+written to a rich Brahmin two ads down, and that letter is invisible here.
+
+**Writing is nearly free, so counts measure acceptability, not preference order.** A letter cost Rs 3 to
+7.50. At that price a family writes to every ad above its threshold, and an ad's count is the number of
+families for whom it cleared the threshold that week. The right reading of `r t4$HC[t4$groom == "HCG-LI"]`
+against `r t4$HC[t4$groom == "LCG-HI"]` is that more Brahmin families find a poor Brahmin acceptable than
+find a rich Namasudra acceptable. That describes the distribution of thresholds across families. It says
+nothing about what any one family would give up.
+
+**Within-caste choice is ample, so staying in caste usually costs nothing.** This is Banerjee et al.'s
+central point. A family with a strong caste preference does not have to accept a poorer groom to indulge
+it; it picks a rich own-caste groom from the many on offer. A preference can be strong and cheap at once.
+Reading letter counts as a sacrifice assumes the opposite: that the only rich groom available was the
+Namasudra.
+
+**So the "bound" was not a bound.** The argument ran: the own-caste count never falls to the
+other-caste-at-35,000 count anywhere in the design, so the crossing lies below Rs 7,000, so the sacrifice is
+at least Rs 28,000. But there is no family whose indifference point is being bracketed. The only true
+statement is that at every income tried, more Brahmin families accepted the Brahmin groom than accepted the
+Namasudra groom at Rs 35,000.
+
+**The same steps are what is wrong with Table 6.** The paper's figure asks at what income a Namasudra groom
+would draw as many Brahmin letters as a Brahmin groom. As a market question, how rich he must be to attract
+as many Brahmin families, that is a real quantity, though extrapolated past every income tried and reported
+without uncertainty. As the paper states it, income "to compensate a given higher-caste responder group", it
+is a claim about what a woman is paid for a loss of status, and no family's trade-off was observed. Banerjee
+et al. can quote a price because they watch one advertiser rank the letters it actually received: one
+family, its real choice set.
+
+What the counts support: how many families of each caste found each ad worth a letter, and how that number
+moves with the groom's advertised income. Those are the per-ad shares and the elasticities above.
 
 ## What the design identifies
 
