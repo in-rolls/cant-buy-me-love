@@ -27,7 +27,7 @@ writes up, and money moves letters across caste lines only downward, at a price 
 | 1,123 letters are unique responses; 47 non-unique letters from 22 responders were dropped (§4, fn 12). | The file drops 243 letters under a flag named `repeat`. They cluster in the second edition and go disproportionately to lower-caste, high-income grooms. Keeping them roughly halves Table 6 ([table](output/audit_table6_with_repeat_letters.md)). |
 | Better-placed responders demand more compensation (§4.4, results "available on request"). | Rebuilt per the stated recipe: the first principal component carries 16% of the variance and quartile-level figures range from −35,000 to +357,000 rupees. At a median split the direction holds for Brahmin families and reverses for Kayastha families. |
 
-[The paper in its own words](ms/interpretation.md) works through twelve of its sentences, quoted, against
+[The paper in its own words](ms/interpretation.md) works through thirteen of its sentences, quoted, against
 the numbers.
 
 ## At a glance
@@ -39,8 +39,6 @@ the numbers.
 | **19.6% / 8.1% / 5.6%** | Brahmin families' letters per Brahmin, Kayastha, Namasudra ad |
 | **1.43 vs 0.16** | income elasticity of Brahmin families' letter share to the Namasudra groom vs to their own groom |
 | **-1.21** | income elasticity of Namasudra families' letter share to the Brahmin groom |
-| **at least Rs 28,000** | income a family forgoes for an own-caste groom in 5 of 6 caste pairings: its own groom on Rs 7,000 still out-draws the other-caste groom on Rs 35,000 |
-| **Rs 13,500** | the one interior case, Kayastha families vs a Namasudra groom (95% CI Rs 2,100–22,900) |
 | **Rs 17,300–67,900** | 95% interval on the paper's Rs 35,900 headline |
 
 ![Where each caste's letters went](figs/letter_shares.png)
@@ -61,32 +59,37 @@ Share of the writer caste's letters per ad, averaged over the three incomes. An 
 cross-caste letters are Kayastha families writing in either direction, so the aggregate cross-caste share is
 47% while sorting is strong. Cross-caste is common; climbing is not.
 
-## Income sacrificed for own caste
+## Why no exchange rate can be read from nine ads
 
-For each writer caste and each other-caste alternative, find the own-caste groom's income at which the
-own-caste letter share falls to the alternative's share at Rs 35,000. The sacrifice is Rs 35,000 minus that
-income. It is revealed in letters written, not in marriages.
+Table 6 asks, in the paper's words, "how much additional monthly income a groom with a caste status c2 and
+a monthly income of y would need in order to achieve the same probability of obtaining a response from
+responders with caste status c1, as that of a groom with a caste status c1 and a monthly income of y". The
+"probability of obtaining a response" is a count: how many families wrote to that ad. The nine ads were not
+the families' choice set. The paper reports that "on an average, 1000 matrimonial advertisements are
+published in every Sunday edition of this newspaper", about 370 of them from grooms. A letter cost Rs 5, so
+a family writes to every ad it finds acceptable, and a letter to ad j says only that the family found j
+acceptable that week, not that it ranked j above the other eight, still less above the hundreds of real
+ads on the same pages. Families also expect, rightly, to find plenty of grooms within their own caste in the
+next edition (Banerjee et al. build their cost argument on exactly this). So a letter to a poor own-caste
+groom gives up nothing against a rich own-caste groom, and equalising two ads' letter counts prices no
+trade-off that any family made.
 
-| Writer | Alternative groom | Own-caste share at Rs 7,000 | Alternative's share at Rs 35,000 | Sacrifice (Rs/month) | 95% bootstrap |
-|---|---|---|---|---|---|
-| Brahmin | Kayastha | 18.0% | 13.8% | at least 28,000 (design bound) | 24,000–28,000 |
-| Brahmin | Namasudra | 18.0% | 10.7% | at least 28,000 (design bound) | 28,000–28,000 |
-| Kayastha | Brahmin | 7.8% | 7.2% | at least 28,000 (design bound) | 22,200–28,000 |
-| Kayastha | Namasudra | 7.8% | 15.5% | 13,500 | 2,100–22,900 |
-| Namasudra | Brahmin | 16.6% | 1.1% | at least 28,000 (design bound) | 28,000–28,000 |
-| Namasudra | Kayastha | 16.6% | 3.7% | at least 28,000 (design bound) | 28,000–28,000 |
+The same objection defeats the inverse inference, which an earlier version of this README made: that
+because an own-caste groom on Rs 7,000 out-draws an other-caste groom on Rs 35,000, families "forgo at
+least Rs 28,000" for caste. Counts of acceptors across families are not sacrifices within a family. That
+table is kept only as [Table 6 run backwards](output/audit_table6_inverted.md), to show the logic yields
+bounds as empty as the paper's point estimates.
 
-In five of six pairings the design never finds the crossing. The exception is Kayastha families against a
-Namasudra groom, at about Rs 13,500, or 39% of
-income. This is the honest form of the paper's Table 6: mostly a bound, because the income menu did not
-reach far enough to price the preference.
+What the counts do support: how many families of each caste found each ad worth a letter, and how that
+number moves with the groom's advertised income. Those are the per-ad shares and the elasticities above.
 
 ## What the design identifies
 
 The experiment fixes the groom side and observes only first letters. So it identifies, for each writer
 caste, the relative attractiveness of nine advertisements, and how that ranking moves with advertised
 income. It does not identify a preference separate from an expectation of acceptance, a price of status
-separate from an ad's wording or page position (one ad per cell, run twice), or anything about marriages.
+separate from an ad's wording or page position (one ad per cell, run twice), a trade-off within any family
+(the nine ads were a few of hundreds a family could write to), or anything about marriages.
 Within those limits, letters cluster by caste, income pulls them down the ladder and pushes them away from
 rich grooms up the ladder, and the trade-off the paper prices lies outside the incomes it tried.
 
@@ -94,8 +97,10 @@ Banerjee, Duflo, Ghatak and Lafortune (2013), reproduced in the sibling reposito
 [`for-better-or-caste`](https://github.com/in-rolls/for-better-or-caste), watch the other side of the same
 newspaper's market five years earlier: real advertisers choosing which letters to pursue. They conclude that
 caste preference is for one's own caste, not for higher castes, which is why they argue it costs little to
-indulge. These letters say the same thing from the writers' side. Joining the two, letter shares here with
-consideration rates there, is the one way to separate wanting from expecting in these data.
+indulge. These letters say the same thing from the writers' side. Their income premium is a price because an
+advertiser ranks the letters it actually received, a choice within one family; nothing here is. Joining
+the two, letter counts here with consideration rates there, is the one way to separate wanting from
+expecting in these data.
 
 ## Reproduction
 

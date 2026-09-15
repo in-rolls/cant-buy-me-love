@@ -41,7 +41,7 @@ two, in either direction. The rising Brahmin-to-Namasudra curve could be taste r
 about which Namasudra family would accept a Brahmin bride; the falling Namasudra-to-Brahmin curve could be
 identity or discouragement. The price in Table 6 therefore prices a ranking of advertisements, not a loss of
 status, and does so by extrapolating past every income the design tried. [The paper in its own
-words](interpretation.md) sets twelve of its sentences beside the numbers.
+words](interpretation.md) sets thirteen of its sentences beside the numbers.
 
 ## Claim-to-estimand table
 
@@ -129,6 +129,19 @@ verdicts. Source: [`output/audit_se_three_ways.md`](../output/audit_se_three_way
 [`output/audit_footnote_tests_three_ways.md`](../output/audit_footnote_tests_three_ways.md).
 
 ### C. Identification and design
+
+**C0. The nine ads were not the choice set.** The paper reports about 1,000 matrimonial ads per Sunday
+edition, roughly 370 from grooms. A letter cost Rs 5. A family writes to every ad it finds acceptable, so
+the count of letters an ad received is the number of families who found it acceptable that week, not the
+number who ranked it above the other eight fictitious ads or above the real ones. Table 6 equalises two
+ads' counts and calls the result the income a groom "would need in order to compensate" a family; no
+family's trade-off is observed. The same objection defeats the inverse reading (own poor groom out-draws
+other rich groom, so families "forgo" Rs 28,000), which an earlier version of this repository made and
+which is retained only as [`output/audit_table6_inverted.md`](../output/audit_table6_inverted.md). What the
+counts support is relative draw across ads and its income gradient (elasticities), and a sorting index
+against the caste-blind third. Banerjee et al. (2013) observe the other side, an advertiser ranking the
+letters it actually received; theirs is a choice within a family, and only that kind of observation prices
+a trade-off.
 
 **C1. Nine ads, each a single treatment cell.** Every caste-income combination is one advertisement with one
 PO box, one wording, one page position, one randomly drawn age/height. Anything specific to an ad is absorbed
@@ -234,13 +247,14 @@ estimate more strongly extrapolated.
 
 ## What the evidence supports
 
-Higher-caste families' letters concentrate on own-caste grooms, and the share going to a lower-caste groom
-rises steeply with his advertised income. Both facts are precisely estimated and robust. The paper's
-translation into "how much income buys caste" is a linear extrapolation from three income points, without
-uncertainty, to incomes no real ad carries. A defensible summary is: among letters from Brahmin families, a
-Namasudra groom advertising Rs 35,000 drew about half the share a Brahmin groom at Rs 35,000 drew (10.7% vs
-23.0%), and one advertising Rs 7,000 drew about a seventeenth (1.0% vs 18.0%). Any rupee figure for closing
-those gaps depends on an assumption about behaviour outside the observed range.
+Families of every caste wrote mostly to their own caste's ads, and the number of higher-caste families
+writing to a lower-caste groom rises steeply with his advertised income while the number of lower-caste
+families writing to a higher-caste groom falls. Both facts are precisely estimated and robust. The paper's
+translation into "how much income buys caste" equalises head counts across two of nine ads in a market of
+hundreds, extrapolates from three income points without uncertainty, and observes no family's trade-off. A
+defensible summary is: among 478 letters from Brahmin families, a Namasudra groom advertising Rs 35,000 drew
+51 (10.7%) against the Brahmin groom's 110 (23.0%), and one advertising Rs 7,000 drew 5 (1.0%) against 86
+(18.0%). No rupee figure follows from those counts.
 
 ## Research opportunities
 

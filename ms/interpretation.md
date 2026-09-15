@@ -81,7 +81,37 @@ concedes it need not be, and requires the quantity given up to be status, which 
 what families are trading. Money buys letters from the small minority of Brahmin families willing to write
 down; whether it buys anything from the majority is not observed.
 
-## 6. The price has no interval, no support, and no model
+## 6. The choice set was not nine advertisements
+
+> how much additional monthly income a groom with a caste status c2 and a monthly income of y would need in order to achieve the same probability of obtaining a response from responders with caste status c1, as that of a groom with a caste status c1 and a monthly income of y?
+
+(§4.3, the question Table 6 answers.) And from the note to Table 6:
+
+> Figure in each shaded cell denotes on average how much additional monthly income (in Rs. thousand) a given lower-caste groom, belonging to a specific income category, would need in order to compensate a given higher-caste responder group so that that responder responds to him with the same probability as to a groom from her own caste belonging to the same income category.
+
+"Probability of obtaining a response" is a count of families. The word "compensate" turns that count into
+a trade-off inside a family's head, and the design observes no such thing. The paper itself describes the
+market:
+
+> On an average, 1000 matrimonial advertisements are published in every Sunday edition of this newspaper.
+
+(§2.) About 370 of those were from grooms. The nine fictitious ads sat among them, in the same caste-sorted
+columns. A letter cost Rs 3 to 7.50. A family writes to every ad it finds acceptable, and expects, rightly,
+to find plenty of grooms of its own caste next Sunday. So a letter to ad j records that the family found j
+acceptable that week; it does not record that the family ranked j above the other eight fictitious ads, and
+it says nothing about the hundreds of real ads the same family may have written to. When the paper argues
+in §5 that
+
+> a higher-caste female who responded to the HI groom of a lower-caste group also had the option of responding to the HI groom from her own caste as all the nine advertisements appeared in the same edition of the newspaper
+
+it treats the nine as her menu. She had the option of both, and of several hundred more, at Rs 5 each.
+Equalising two ads' letter counts therefore prices no trade-off any family made. Banerjee, Duflo, Ghatak and
+Lafortune can quote an income premium because they watch one advertiser rank the letters it actually
+received: a choice, within one family, over a real set. Nothing in this design is of that kind. What the
+counts support is how many families of each caste found each ad worth a letter, and how that number moves
+with income.
+
+## 7. The price has no interval, no support, and no model
 
 > However, the magnitude of increase in these response probabilities are quite small, as we find that per thousand Rupees increase in income of a
 > lower-caste groom increases the probability of a higher-caste response between 0.2% to 0.5%. These low probability figures imply that the amounts of additional monthly income that lower-caste grooms need to offer to higher-caste responders to completely offset the discriminatory response patterns are enormous and according to our estimates they lie in the range of approximately Rs. 17000 to Rs. 49000.
@@ -100,7 +130,7 @@ the 1,261 real advertisements the authors collected; the highest was Rs 50,000. 
 in a range that spans a factor of four, computed at an income no real groom advertised, with no uncertainty
 reported anywhere in the paper.
 
-## 7. Two ordering claims the data cannot rank
+## 8. Two ordering claims the data cannot rank
 
 > First, the estimated amount of compensation needed by a HCR to consider the marital advertisement by a lower-caste groom decreases monotonically with an increase in the monthly income of a lower-caste groom.
 
@@ -113,17 +143,18 @@ Rs 7,000 to Rs 35,000 for the Namasudra groom is 13.4 thousand with an
 interval of -6 to 30. Both
 include zero. "Monotonically" describes three point estimates; the data do not order them.
 
-## 8. The supply-side rebuttal rests on letters the paper threw away
+## 9. The supply-side rebuttal rests on letters the paper threw away
 
-> First, by the virtue of our experimental design, a higher-caste female who responded to the HI groom of a lower-caste group also had the option of responding to the HI groom from her own caste as all the nine advertisements appeared in the same edition of the newspaper
-
-(§5.) She did have the option, and the record shows each family taking exactly one. The families that used
-the option the argument relies on, writing to more than one ad, are the ones the analysis excludes: the file
-drops 243 letters under a `repeat` flag, against the text's 47. Those letters go
-disproportionately to lower-caste, high-income grooms. With them kept, the headline compensation falls from
+The §5 sentence quoted in item 6, that a higher-caste family "also had the option of responding to the HI
+groom from her own caste", is offered to rule out a shortage of rich own-caste grooms. The record shows each
+family taking exactly one of the nine. The families that used the option the argument relies on, writing to
+more than one of the ads, are the ones the analysis excludes: the file drops
+243
+letters under a `repeat` flag, against the text's 47. Those letters go disproportionately to lower-caste,
+high-income grooms. With them kept, the headline compensation falls from
 Rs 35,900 to Rs 19,800.
 
-## 9. Dowry is dismissed by a table that cannot test it
+## 10. Dowry is dismissed by a table that cannot test it
 
 > If expected dowry is the prime driver of the responses, then we would expect to observe fewer responses from a given high-caste group for lower-caste grooms with higher income. An inspection of Table 6 contradicts such a view.
 
@@ -132,18 +163,18 @@ cannot pay as the groom gets richer, which is what the *upward* cells show (item
 downward cells, where a Brahmin family, on average richer, faces a Namasudra groom who commands less. The
 table cited cannot bear on the objection, and the cells that can support it.
 
-## 10. Letters are read as marriages
+## 11. Letters are read as marriages
 
 > still it is natural to assume a positive correlation between the frequency of initial responses and the likelihood of final matches, after allowing for some level of friction in the mate selection process.
 
-(§5.) A letter cost Rs 3 to 7.50. The correlation may be positive and still tell you nothing about the
-exchange rate, because the design never observes the trade it prices. In five of six caste pairings the
-own-caste groom on Rs 7,000 draws more of a caste's letters than the other-caste groom on Rs 35,000, so the
-income a family forgoes for caste is at least Rs 28,000 and unobserved beyond that. The single interior case,
-Kayastha families against a Namasudra groom, gives Rs 13,500. The design's income menu
-stopped before the preference did.
+(§5.) The correlation may well be positive. It does not make a count of Rs 5 letters into a measure of
+what any family would accept in a marriage. Banerjee et al. find, from the advertisers who received such
+letters, that families choose among enough own-caste candidates that keeping caste costs them little in
+partner income. A family that writes to a poor own-caste groom this week has given up nothing; the rich
+own-caste groom will be in next week's edition. The paper's Table 6, and any inversion of it, reads a head
+count as a sacrifice. Neither is.
 
-## 11. The same table, opposite policy conclusions
+## 12. The same table, opposite policy conclusions
 
 From the May 2008 abstract:
 
@@ -160,7 +191,7 @@ data, which say only that among first letters from Brahmin families, a Namasudra
 10.7% against the Brahmin groom's 23.0%, and that
 47% of all first letters already cross caste.
 
-## 12. "First", with the neighbour in a footnote
+## 13. "First", with the neighbour in a footnote
 
 > In this sense, our study is the first one that estimates the trade-off between status and income.
 
@@ -181,6 +212,6 @@ Bengali newspaper. Families of every caste wrote mostly to their own: an own-cas
 5 times the letters of any other, and no caste wrote up. Advertised income moved letters across caste lines
 only downward, with an elasticity of about 1.4 for Brahmin families
 writing to a Namasudra groom, and pushed lower-caste letters away from richer higher-caste grooms. Forty-seven
-percent of first letters crossed caste. The income at which a lower-caste groom would draw an own-caste
-groom's share lies outside the incomes tried, and letters do not separate what a family wants from what it
-expects to get.
+percent of first letters crossed caste. The nine ads sat among hundreds, so counts of letters across families
+price no trade-off any family made, and letters do not separate what a family wants from what it expects
+to get.

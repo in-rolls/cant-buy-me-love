@@ -116,12 +116,14 @@ benchmark <- bind_rows(
             sorting_index = (own_caste - 1 / 3) / (1 - 1 / 3))
 write_table(benchmark, "headline_assortative_benchmark", digits = 3)
 
-# Income sacrificed for own caste. For a responder caste and an alternative
-# groom caste, find the own-caste groom income at which the own-caste letter
-# share equals the alternative groom's share at Rs 35,000, interpolating linearly
-# on the own-caste share curve. Sacrifice = 35,000 minus that income. When the
-# own-caste groom at Rs 7,000 still draws more letters than the alternative at
-# Rs 35,000, the sacrifice is at least Rs 28,000 and is reported as a bound.
+# Table 6 run backwards. For a responder caste and an alternative groom caste,
+# find the own-caste groom income at which the own-caste letter share equals the
+# alternative groom's share at Rs 35,000, interpolating on the own-caste share
+# curve; 35,000 minus that income would be the "income forgone for caste" if the
+# nine ads were a family's choice set. They were not: the ads sat among hundreds
+# in the same edition, and a letter count is the number of families who found an
+# ad acceptable, not a ranking. The table is produced only to show that the
+# paper's logic, inverted, yields bounds as empty as its point estimates.
 sacrifice_from_shares <- function(shares, rc, alt) {
   own <- shares |> filter(responder_caste == rc, groom_caste == rc) |> arrange(groom_income)
   alt_hi <- shares$share[shares$responder_caste == rc & shares$groom_caste == alt & shares$groom_income == 35000]
@@ -158,6 +160,6 @@ sacrifice <- bind_rows(lapply(seq_len(nrow(pairs)), function(i) {
          sacrifice_lower = quantile(draws, 0.025), sacrifice_upper = quantile(draws, 0.975),
          share_draws_at_bound = mean(draws == 28))
 }))
-write_table(sacrifice, "headline_income_sacrifice", digits = 3)
+write_table(sacrifice, "audit_table6_inverted", digits = 3)
 print(benchmark)
 print(sacrifice, width = 160)
